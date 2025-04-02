@@ -54,7 +54,7 @@
 		{:else}
 			<EmptyMarkdown />
 		{/if}
-		<Separator />
+		<!--<Separator />-->
 		<div class="flex flex-col gap-2 px-4 pt-4">
 			{#if data.item.screenshots && data.item.screenshots.length > 0}
 				<Muted>Screenshots</Muted>

@@ -6,7 +6,7 @@
 
 <TitledPage title={ResumeData.title}>
 	<a href={ResumeData.resume} class="mx-auto">
-		<Button>Download</Button>
+		<Button>Descargar</Button>
 	</a>
 	<iframe src={ResumeData.resume} class="h-full w-full" title={ResumeData.title}></iframe>
 </TitledPage>
