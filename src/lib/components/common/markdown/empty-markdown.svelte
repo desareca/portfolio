@@ -4,6 +4,8 @@
 </script>
 
 <div class="flex flex-1 flex-col items-center justify-center gap-2">
+	<!--
 	<Large>Ooops...</Large>
-	<Muted>No content to display here, comeback another time...</Muted>
+	<Muted>No hay contenido para mostrar, vuelve en otro momento...</Muted>
+	-->
 </div>

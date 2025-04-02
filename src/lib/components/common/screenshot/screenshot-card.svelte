@@ -32,7 +32,7 @@
 		<DialogTitle>{item.label}</DialogTitle>
 		<div
 			class="flex-1 bg-cover bg-center bg-no-repeat"
-			style={`background-image: url("${item.src}")`}
+			style={`background-image: url("${item.src}"); background-size: auto 100%;`}
 		></div>
 		<DialogFooter>
 			<DialogClose>

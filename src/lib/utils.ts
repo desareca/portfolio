@@ -73,29 +73,29 @@ export function computeExactDuration(from: Date, to: Date = new Date()): string 
 
 	if (years >= 1) {
 		remaining = remaining % YEAR;
-		display.push(`${Math.trunc(years)} year${years >= 2 ? 's' : ''}`);
+		display.push(`${Math.trunc(years)} año${years >= 2 ? 's' : ''}`);
 	}
 
 	const months = remaining / MONTH;
 	if (months >= 1) {
 		remaining = remaining % MONTH;
-		display.push(`${Math.trunc(months)} month${months >= 2 ? 's' : ''}`);
+		display.push(`${Math.trunc(months)} mes${months >= 2 ? 'es' : ''}`);
 	}
 
 	const weeks = remaining / WEEK;
 	if (weeks >= 1) {
 		remaining = remaining % WEEK;
-		display.push(`${Math.trunc(weeks)} week${weeks >= 2 ? 's' : ''}`);
+		display.push(`${Math.trunc(weeks)} semana${weeks >= 2 ? 's' : ''}`);
 	}
 
 	const days = remaining / DAY;
 	if (days >= 1) {
 		remaining = remaining % DAY;
-		display.push(`${Math.trunc(days)} day${days >= 2 ? 's' : ''}`);
+		display.push(`${Math.trunc(days)} día${days >= 2 ? 's' : ''}`);
 	}
 
 	if (display.length === 0) {
-		return '1 day';
+		return '1 día';
 	}
 
 	return display
@@ -103,7 +103,7 @@ export function computeExactDuration(from: Date, to: Date = new Date()): string 
 			if (display.length === 1 || index === display.length - 1) return it;
 
 			if (index === display.length - 2) {
-				return `${it} and`;
+				return `${it} y`;
 			}
 
 			return `${it},`;
@@ -112,18 +112,18 @@ export function computeExactDuration(from: Date, to: Date = new Date()): string 
 }
 
 const monthNames = [
-	'January',
-	'February',
-	'March',
-	'April',
-	'May',
-	'June',
-	'July',
-	'August',
-	'September',
-	'October',
-	'November',
-	'December'
+	'Enero',
+	'Febrero',
+	'Marzo',
+	'Abril',
+	'Mayo',
+	'Junio',
+	'Julio',
+	'Agosto',
+	'Septiembre',
+	'Octubre',
+	'Noviembre',
+	'Deciembre'
 ];
 
 export const getMonthName = (index: number): string => {
@@ -133,7 +133,7 @@ export const getMonthName = (index: number): string => {
 export const href = (url: string) => `${base}${url}`;
 
 export const getMonthAndYear = (date?: Date) => {
-	if (!date) return 'Present';
+	if (!date) return 'Presente';
 
 	return `${getMonthName(date.getMonth())} ${date.getFullYear()}`;
 };

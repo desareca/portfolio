@@ -69,7 +69,32 @@ const Assets = {
 	Jest: asset('jest.png'),
 	Unocss: asset('unocss.svg'),
 	Ruvy: asset('ruvy.svg'),
-	Postcss: asset('postcss.svg')
+	Postcss: asset('postcss.svg'),
+	Matplotlib: asset('matplotlib.png'),
+	Seaborn: asset('seaborn.svg'),
+	Plotly: asset('plotly.png'),
+	GGPlot2: asset('ggplot2.png'),
+	Powerbi: asset('powerbi.svg'),
+	Excel: asset('excel.svg'),
+	D3: asset('d3.svg'),
+	Sklearn: asset('sklearn.svg'),
+	Keras: asset('keras.svg'),
+	TensorFlow: asset('tensorflow.svg'),
+	H2O: asset('h2o.svg'),
+	R: asset('r.png'),
+	Tidyverse: asset('tidyverse.png'),
+	AWSLambda: asset('awslambda.svg'),
+	AWSEC2: asset('ec2.svg'),
+	AWSECS: asset('ecs.svg'),
+	AWSFargate: asset('fargate.svg'),
+	AWSRDS: asset('rds.svg'),
+	AWSS3: asset('s3.svg'),
+	UFRO: asset('ufro.svg'),
+	UAI: asset('uai.png'),
+	UDD: asset('udd.png'),
+	USACH: asset('usach.png'),
+	EVOLET: asset('evolet.png'),
+
 };
 
 export default Assets;

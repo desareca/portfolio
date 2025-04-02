@@ -11,12 +11,11 @@ const hero: {
 } = {
 	title: `${BaseData.fullName},`,
 	description:
-		'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+		'Soy Ingeniero Civil Electrónico, me dediqué al desarrollo de proyectos industriales por mucho tiempo. La curiosidad por nuevos desafíos me llevó hacia la ciencia de datos, campo en el que he profundizado mediante cursos, desarrollo de proyectos y competencias en Kaggle. Mi pasión por estar continuamente aprendiendo me ha impulsado a explorar constantemente nuevas disciplinas relacionadas con análisis y visualización de datos, así como las tecnologías necesarias para implementar estos análisis. Estoy siempre en busca de adquirir y aplicar nuevos conocimientos y desarrollar proyectos interesantes.',
 	links: [
-		{ label: 'GitHub', href: 'https://github.com', icon: 'i-carbon-logo-github' },
-		{ label: 'LinkedIn', href: 'https://linkedin.com', icon: 'i-carbon-logo-linkedin' },
-		{ label: 'Twitter', href: 'https://twitter.com', icon: 'i-carbon-logo-twitter' },
-		{ label: 'Email', href: 'mailto:riadh.adrani@pm.me', icon: 'i-carbon-at' }
+		{ label: 'GitHub', href: 'https://github.com/desareca/', icon: 'i-carbon-logo-github' },
+		{ label: 'LinkedIn', href: 'https://linkedin.com/in/carlos-saquel/', icon: 'i-carbon-logo-linkedin' },
+		{ label: 'Email', href: 'mailto:carlos.saquel@gmail.com', icon: 'i-carbon-logo-google' }
 	]
 };
 
