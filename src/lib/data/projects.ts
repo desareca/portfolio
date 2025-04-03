@@ -381,7 +381,15 @@ const items: Array<Project> = [
 		slug: 'analisis-sentimientos-noticieros-chilenos',
 		color: 'royalblue',
 		description:
-			'Twitter es actualmente una dinámica fuente de contenidos que, dada su popularidad e impacto, se ha convertido en uno de los principales medios de difusión de los principales medios de comunicación tradicionales (radio y televisión). A continuación se realizará un análisis de sentimientos de los tweets de noticieros chilenos para así concluir si hay algún patrón entre los sentimientos evocados por los tweets de los noticieros. Para ello, se analizan las publicaciones que han hecho en Twitter los noticieros de @CNNChile, @ahoranoticiasAN, @24HorasTVN, @T13 y @CHVNoticias.',
+			`<div style="display: flex; justify-content: center; text-align: center;">
+			<img width="70%" height="auto" src='https://github.com/desareca/Analisis-Sentimientos-Noticieros/raw/master/Analisis%20sentimientos%20tweets%20tiempo.png'>
+			</div>
+			<br><br>
+			Twitter es actualmente una dinámica fuente de contenidos que, dada su popularidad e impacto, se ha convertido en uno de los principales medios de difusión de los principales medios de comunicación tradicionales (radio y televisión).
+			<br><br>
+			A continuación se realiza un análisis de sentimientos de los tweets de noticieros chilenos para así concluir si existe algún patrón entre los sentimientos evocados por los tweets de los noticieros. Para ello, se analizan las publicaciones que han hecho en Twitter los noticieros de @CNNChile, @ahoranoticiasAN, @24HorasTVN, @T13 y @CHVNoticias.
+			<br><br>
+			Se consideraron Tweets entre el periodo de abril a junio del 2019.`,
 		shortDescription:
 			'Twitter es actualmente una dinámica fuente de contenidos que, dada su popularidad e impacto, se ha convertido en uno de los principales medios de difusión de los principales medios de comunicación tradicionales (radio y televisión).',
 		links: [
