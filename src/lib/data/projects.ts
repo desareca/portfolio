@@ -283,7 +283,11 @@ const items: Array<Project> = [
 		slug: 'prediccion-remuneracion-futbolistas',
 		color: 'steelblue',
 		description:
-			'Predicción de remuneraciones de futbolistas a partir de estadísticas sobre sus habilidades de juego. Para ellos se filtrarán los datos de habilidades y se realizará un análisis exploratorio para identificar patrones en los datos que permitan tener información fiable e implementar una predicción mediante una regresión lineal en tensorflow.',
+			`<div style="display: flex; justify-content: center; text-align: center;">
+			<img width="70%" height="auto" src='https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?auto=compress&cs=tinysrgb&w=640&h=427&dpr=2'>
+			</div>
+			<br><br>
+			Predicción de remuneraciones de futbolistas a partir de estadísticas sobre sus habilidades de juego. Para ellos se filtrarán los datos de habilidades y se realizará un análisis exploratorio para identificar patrones en los datos que permitan tener información fiable e implementar una predicción mediante una regresión lineal en tensorflow.`,
 		shortDescription:
 			'Predicción de remuneraciones de futbolistas a partir de estadísticas sobre sus habilidades de juego.',
 		links: [
@@ -313,7 +317,11 @@ const items: Array<Project> = [
 		slug: 'clasificacion-infarto-cardiaco',
 		color: 'steelblue',
 		description:
-			'Clasificación binaria para predecir en base a las variables si un paciente con un determinado número de medidas médicas es susceptible de tener enfermedad de corazón o no.<br><ul><li>La clasificación se considerará satisfactoria si alcanza una exactitud de 0.9.<li>Para ello se realizará un análisis exploratorio de las variables evaluando que variables aportan a la predicción, posteriormente se dividirán los datos en conjunto de entrenamiento (80%) y conjunto de validación (20%).<li>Con esto se realizarán diversos algoritmos de clasificación binaria mediante ternsorflow, donde el entrenamiento se realizará utilizando validación cruzada aleatoria (en cada algoritmo hay una descripción del procedimiento utilizado).<li>Finalmente la comparación de los algoritmos se relizará con la exactitud de cada algoritmo sobre el conjunto de validación.</ul>',
+			`<div style="display: flex; justify-content: center; text-align: center;">
+			<img width="70%" height="auto" src='https://images.pexels.com/photos/1093161/pexels-photo-1093161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'>
+			</div>
+			<br><br>
+			Clasificación binaria para predecir en base a las variables si un paciente con un determinado número de medidas médicas es susceptible de tener enfermedad de corazón o no.<br><ul><li>La clasificación se considerará satisfactoria si alcanza una exactitud de 0.9.<li>Para ello se realizará un análisis exploratorio de las variables evaluando que variables aportan a la predicción, posteriormente se dividirán los datos en conjunto de entrenamiento (80%) y conjunto de validación (20%).<li>Con esto se realizarán diversos algoritmos de clasificación binaria mediante ternsorflow, donde el entrenamiento se realizará utilizando validación cruzada aleatoria (en cada algoritmo hay una descripción del procedimiento utilizado).<li>Finalmente la comparación de los algoritmos se relizará con la exactitud de cada algoritmo sobre el conjunto de validación.</ul>`,
 		shortDescription:
 			'Clasificación binaria para predecir en base a las variables si un paciente con un determinado número de medidas médicas es susceptible de tener enfermedad de corazón o no.',
 		links: [
