@@ -3,6 +3,10 @@ import { base } from '$app/paths';
 const urlImageStatic = (file: string) => `${base}/image/${file}`;
 
 const AssetsImage = {
+	INGVHiper: urlImageStatic('resultados_hiperparametros.png'),
+	INGVPred: urlImageStatic('predicion_real.png'),
+	INGVError: urlImageStatic('error_prediccion.png'),
+
 	K2020Req: urlImageStatic('respuesta_pais.png'),
 	K2020RankC: urlImageStatic('ranking_paises_respuestas.png'),
 	K2020ReqAge: urlImageStatic('respuestas_edad_region.png'),

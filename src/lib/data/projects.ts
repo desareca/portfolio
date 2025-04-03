@@ -5,6 +5,41 @@ import type { Project } from './types';
 
 const items: Array<Project> = [
 	{
+		slug: 'prediccion-erupcion-volcanica',
+		color: 'royalblue',
+		description:
+			`El Instituto Nacional de Geofísica y Vulcanología (INGV) de Italia se centra en la geofísica y la vulcanología. Su principal objetivo es contribuir a la comprensión del sistema terrestre y, al mismo tiempo, mitigar los riesgos asociados. Encargado de monitorear la sismicidad y la actividad volcánica activa las 24 horas del día en todo el país, el INGV busca encontrar los precursores detectables más tempranos que proporcionen información sobre la cronología de futuras erupciones volcánicas.
+			<br><br>
+			El objetivo es predecir cuándo ocurrirá la próxima erupción de un volcán, para ello se analiza un amplio conjunto de datos geofísicos recopilados por sensores instalados en volcanes activos, calculando features de las series temporales para entrenar un modelo XGBoost que prediga cuando será la próxima erupción.`,
+		shortDescription:
+			'Predicción de erupciones volcánicas con XGBoost',
+		links: [
+			{ to: 'https://www.kaggle.com/competitions/predict-volcanic-eruptions-ingv-oe/overview', label: 'Kaggle' }
+		],
+		logo: Assets.R,
+		name: 'INGV - Predicción de Erupción Volcánica',
+		period: {
+			from: new Date(2020, 10, 11),
+			to: new Date(2021, 0, 5),
+		},
+		skills: getSkills('r', 'tidyverse', 'ggplot2'),
+		type: 'Series de Tiempo',
+		screenshots: [
+			{
+				label: 'Error (MAE) de los Hiperparámetros',
+				src: AssetsImage.INGVHiper
+			},
+			{
+				label: 'Prediccón vs Real',
+				src: AssetsImage.INGVPred
+			},
+			{
+				label: 'Error (MAE) de Predicción',
+				src: AssetsImage.INGVError
+			}
+		]
+	},
+	{
 		slug: 'kaggle-survey-2020',
 		color: 'royalblue',
 		description:
