@@ -5,6 +5,49 @@ import type { Project } from './types';
 
 const items: Array<Project> = [
 	{
+		slug: 'game-life-genetic-algorithm',
+		color: 'royalblue',
+		description:
+			`El Juego de la vida es un autómata celular diseñado por el matemático británico John Horton Conway en 1970. Es un juego de cero jugadores, en el que su evolución es determinada por un estado inicial, sin requerir intervención adicional.
+			<br><br>
+			El juego se desarrolla en una cuadrícula de celdas, donde cada celda puede estar viva o muerta. En cada paso del tiempo, el estado de cada celda se determina por el estado de sus ocho vecinos (celdas adyacentes). Las reglas son las siguientes:
+			<ul>
+			<li>Una celda viva con menos de dos vecinos vivos muere (subpoblación).
+			<li>Una celda viva con dos o tres vecinos vivos permanece viva (supervivencia).
+			<li>Una celda viva con más de tres vecinos vivos muere (sobrepoblación).
+			<li>Una celda muerta con exactamente tres vecinos vivos se convierte en una celda viva (reproducción). 
+			</ul>
+			<br>
+			A continuación se implementa una solución utilizando algoritmos genéticos para encontrar el punto de partida edl juego a partir de estados finales.`,
+		shortDescription:
+			'Optimización mediante algoritmos genéticos para resolver el juego de la vida inverso.',
+		links: [
+			{ to: 'https://www.kaggle.com/code/desareca/game-of-life-genetic-algorithm-spanish', label: 'Kaggle' }
+		],
+		logo: Assets.R,
+		name: 'Game of Life - Genetic Algorithm',
+		period: {
+			from: new Date(2020, 9, 3),
+			to: new Date(2020, 9, 31),
+		},
+		skills: getSkills('r', 'tidyverse', 'ggplot2'),
+		type: 'Optimización - Algoritmos Genéticos',
+		screenshots: [
+			{
+				label: 'Implementación del juego de la vida',
+				src: AssetsImage.GLifeExample
+			},
+			{
+				label: 'Comparación de estados iniciales y finales',
+				src: AssetsImage.GLifeStartStop
+			},
+			{
+				label: 'Comparación de predicciones y resultados',
+				src: AssetsImage.GLifePred
+			}
+		]
+	},
+	{
 		slug: 'som-clasificacion-imagenes',
 		color: 'royalblue',
 		description:
