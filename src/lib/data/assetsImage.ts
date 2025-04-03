@@ -3,6 +3,12 @@ import { base } from '$app/paths';
 const urlImageStatic = (file: string) => `${base}/image/${file}`;
 
 const AssetsImage = {
+	K2020Req: urlImageStatic('respuesta_pais.png'),
+	K2020RankC: urlImageStatic('ranking_paises_respuestas.png'),
+	K2020ReqAge: urlImageStatic('respuestas_edad_region.png'),
+	K2020ComR: urlImageStatic('sueldo_region.png'),
+	K2020ComA: urlImageStatic('sueldo_edad.png'),
+
 	GLifeExample: urlImageStatic('patron_juego_vida.gif'),
 	GLifeStartStop: urlImageStatic('comp_start_stop.png'),
 	GLifePred: urlImageStatic('comp_prediccion.png'),

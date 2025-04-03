@@ -5,6 +5,51 @@ import type { Project } from './types';
 
 const items: Array<Project> = [
 	{
+		slug: 'kaggle-survey-2020',
+		color: 'royalblue',
+		description:
+			`El año 2020 Kaggle realizó una encuesta a nivel de toda la industria que presenta una visión verdaderamente completa del estado de la ciencia de datos y el aprendizaje automático. La encuesta estuvo activa durante 3,5 semanas en octubre y, tras depurar los datos se obtuvieron 20.036 respuestas.
+			<br><br>
+			Los resultados incluyen cifras sin procesar sobre quién trabaja con datos, qué está sucediendo con el aprendizaje automático en diferentes industrias y las mejores maneras para que los nuevos científicos de datos se adentren en este campo. 
+			<br><br>
+			A continuación se presenta un análisis con visualización interactiva de los datos.`,
+		shortDescription:
+			'Visualización de datos de la encuesta Kaggle 2020 sobre ciencia de datos y aprendizaje automático.',
+		links: [
+			{ to: 'https://www.kaggle.com/code/desareca/kaggle-survey-2020-analisys-by-region', label: 'Kaggle' }
+		],
+		logo: Assets.R,
+		name: 'Encuesta Kaggle 2020: Análisis por región',
+		period: {
+			from: new Date(2020, 10, 19),
+			to: new Date(2021, 0, 5),
+		},
+		skills: getSkills('r', 'tidyverse', 'ggplot2', 'plotly'),
+		type: 'Visualización de Datos',
+		screenshots: [
+			{
+				label: 'Cantidad de respuestas por país',
+				src: AssetsImage.K2020Req
+			},
+			{
+				label: 'Paises con mayor cantidad de respuestas',
+				src: AssetsImage.K2020RankC
+			},
+			{
+				label: 'Distribución de edades por región',
+				src: AssetsImage.K2020ReqAge
+			},
+			{
+				label: 'Distribución de sueldos por región',
+				src: AssetsImage.K2020ComR
+			},
+			{
+				label: 'Distribución de sueldos por edad',
+				src: AssetsImage.K2020ComA
+			},
+		]
+	},
+	{
 		slug: 'game-life-genetic-algorithm',
 		color: 'royalblue',
 		description:
