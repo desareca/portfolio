@@ -13,6 +13,8 @@
 	import type { Project } from '$lib/data/types';
 	import { computeExactDuration, getMonthAndYear, href } from '$lib/utils';
 	import { mode } from 'mode-watcher';
+	import Icon from '$lib/components/ui/icon/icon.svelte';
+
 
 	let { data }: { data: { item?: Project } } = $props();
 
@@ -41,7 +43,7 @@
 				<Separator />
 				<div class="flex flex-row flex-wrap justify-center gap-2">
 					{#each data.item.links as link (link.to)}
-						<a href={link.to} target="_blank"><Badge variant="outline">{link.label}</Badge></a>
+						<a href={link.to} target="_blank"><Badge variant="outline"><Icon icon="i-carbon-link" className='mr-3 p-2 m-1' /> {link.label}</Badge></a>
 					{/each}
 				</div>
 				<div class="flex flex-row flex-wrap justify-center gap-2">
