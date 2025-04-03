@@ -3,6 +3,10 @@ import { base } from '$app/paths';
 const urlImageStatic = (file: string) => `${base}/image/${file}`;
 
 const AssetsImage = {
+	ComidaAnalisis: urlImageStatic('comida_rapida_I_analisis.png'),
+	ComidaProd: urlImageStatic('comida_rapida_I_productos.png'),
+	ComidaMonteCarlo: urlImageStatic('comida_rapida_I_montecarlo.png'),
+
 	INGVHiper: urlImageStatic('resultados_hiperparametros.png'),
 	INGVPred: urlImageStatic('predicion_real.png'),
 	INGVError: urlImageStatic('error_prediccion.png'),
