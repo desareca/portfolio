@@ -3,6 +3,13 @@ import { base } from '$app/paths';
 const urlImageStatic = (file: string) => `${base}/image/${file}`;
 
 const AssetsImage = {
+	ComidaDist: urlImageStatic('comida_rapida_II_dist.png'),
+	ComidaRegL: urlImageStatic('comida_rapida_II_reglineal.png'),
+	ComidaKNN: urlImageStatic('comida_rapida_II_knn.png'),
+	ComidaSVM: urlImageStatic('comida_rapida_II_svm.png'),
+	ComidaRF: urlImageStatic('comida_rapida_II_rf.png'),
+	ComidaGB: urlImageStatic('comida_rapida_II_gb.png'),
+
 	ComidaAnalisis: urlImageStatic('comida_rapida_I_analisis.png'),
 	ComidaProd: urlImageStatic('comida_rapida_I_productos.png'),
 	ComidaMonteCarlo: urlImageStatic('comida_rapida_I_montecarlo.png'),

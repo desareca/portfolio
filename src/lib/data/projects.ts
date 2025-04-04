@@ -4,6 +4,66 @@ import { getSkills } from './skills';
 import type { Project } from './types';
 
 const items: Array<Project> = [
+		//venta-comida-rapida-2
+		{
+			slug: 'venta-comida-rapida-2',
+			color: 'steelblue',
+			description:
+				`<h1>Predicción de Ventas utilizando algoritmos de Machine Learning.</h1>
+				<br><br>
+				<div style="display: flex; justify-content: center; text-align: center;">
+				<img width="70%" height="auto" src="https://tecnologiabi.com/wp-content/uploads/2023/06/pronosticos-de-ventas-con-machine-learning.jpg">
+				</div>
+				<br><br>
+				Continuando con la serie de notebooks, tenemos datos de venta en un local de comida rápida en funcionamiento actualmente, que corresponden a los años 2020, 2021 y 2022.<br><br>
+				Estos datos tienen información de ventas diarias de Papas Fritas, Churrascos, Carne Mechada, Completo, SalchiPapas (ya me dió hambre 😋)....<br><br>
+				El objetivo es realizar una predicción de ventas de la semana siguiente si se cuentan con los datos de ventas de la semana anterior. Con esto se puede evaluar precios y planificar suministros, así ningún cliente se queda sin comer 🤤🍔🍟 y ganamos 💲💲💲.
+				<br><br>
+				<strong>Consideraciones</strong><br>
+				Se realiza un limpieza y análisis exploratorio que permita extraer información relevante de los datos.
+				\nAdemás, se implementan 5 modelos (Regresión Lineal, KNN, SVM, Random Forest y Gradient Boosting) y se evalua el mejor desempeño de acuerdo con distintas métricas.\nPor simplicidad se consideran las ventas totales de cada día de la semana anterior y la fecha de la semana a predecir.\nLos datos tienen varias semanas sin datos debido a la pandemia, por lo que se consideran solo las semanas con datos.
+				`,
+			shortDescription:
+				'Predicción de Ventas utilizando algoritmos de Machine Learning',
+			links: [
+				{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: 'Colab' }
+			],
+			logo: Assets.Python,
+			name: 'Ventas Local de Comida Rápida\nParte II',
+			period: {
+				from: new Date(2022, 1, 5),
+				to: new Date(2022, 4, 30),
+			},
+			skills: getSkills('python', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'sklearn'),
+			type: 'Machine Learning',
+			screenshots: [
+				{
+					label: 'Distribución de Variables',
+					src: AssetsImage.ComidaDist
+				},
+				{
+					label: 'Resultados Regresión Lineal',
+					src: AssetsImage.ComidaRegL
+				},
+				{
+					label: 'Resultados Regresión KNN',
+					src: AssetsImage.ComidaKNN
+				},
+				{
+					label: 'Resultados Regresión SVM',
+					src: AssetsImage.ComidaSVM
+				},
+				{
+					label: 'Resultados Regresión Random Forest',
+					src: AssetsImage.ComidaRF
+				},
+				{
+					label: 'Resultados Regresión Gradient Boosting',
+					src: AssetsImage.ComidaGB
+				}
+			]
+		},	
+	//venta-comida-rapida-1
 	{
 		slug: 'venta-comida-rapida-1',
 		color: 'steelblue',
@@ -35,17 +95,17 @@ const items: Array<Project> = [
 			</ul><br>
 			Además, sólo se consideran los meses de Diciembre, Enero y Febrero, debido a que este tipo de negocio es mayormente estacional y la simulación podría no ser necesariamente válida considerando un año completo.`,
 		shortDescription:
-			'Predicción de erupciones volcánicas con XGBoost',
+			'Análisis Exploratorio e Inferencia para determinar estacionalidad en las ventas',
 		links: [
 			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: 'Colab' }
 		],
 		logo: Assets.Python,
-		name: 'Ventas Local de Comida Rápida - Parte I',
+		name: 'Ventas Local de Comida Rápida\nParte I',
 		period: {
-			from: new Date(2020, 10, 11),
-			to: new Date(2021, 0, 5),
+			from: new Date(2022, 1, 5),
+			to: new Date(2022, 4, 30),
 		},
-		skills: getSkills('python', 'numpy', 'matplotlib'),
+		skills: getSkills('python', 'pandas', 'numpy', 'matplotlib'),
 		type: 'Análisis de Datos',
 		screenshots: [
 			{
@@ -62,6 +122,7 @@ const items: Array<Project> = [
 			}
 		]
 	},
+	//prediccion-erupcion-volcanica
 	{
 		slug: 'prediccion-erupcion-volcanica',
 		color: 'royalblue',
@@ -101,6 +162,7 @@ const items: Array<Project> = [
 			}
 		]
 	},
+	//kaggle-survey-2020
 	{
 		slug: 'kaggle-survey-2020',
 		color: 'royalblue',
@@ -150,6 +212,7 @@ const items: Array<Project> = [
 			},
 		]
 	},
+	//game-life-genetic-algorithm
 	{
 		slug: 'game-life-genetic-algorithm',
 		color: 'royalblue',
@@ -197,6 +260,7 @@ const items: Array<Project> = [
 			}
 		]
 	},
+	//som-clasificacion-imagenes
 	{
 		slug: 'som-clasificacion-imagenes',
 		color: 'royalblue',
@@ -251,6 +315,7 @@ const items: Array<Project> = [
 			}
 		]
 	},
+	//fifa19-analisis-prediccion
 	{
 		slug: 'fifa19-analisis-prediccion',
 		color: 'royalblue',
@@ -298,6 +363,7 @@ const items: Array<Project> = [
 			}
 		]
 	},
+	//prediccion-remuneracion-futbolistas
 	{
 		slug: 'prediccion-remuneracion-futbolistas',
 		color: 'steelblue',
@@ -332,6 +398,7 @@ const items: Array<Project> = [
 			}
 		]
 	},
+	//clasificacion-infarto-cardiaco
 	{
 		slug: 'clasificacion-infarto-cardiaco',
 		color: 'steelblue',
@@ -366,6 +433,7 @@ const items: Array<Project> = [
 			}
 		]
 	},
+	//analisis-consumidores-mall
 	{
 		slug: 'analisis-consumidores-mall',
 		color: 'steelblue',
@@ -408,6 +476,7 @@ const items: Array<Project> = [
 			}
 		]
 	},
+	//analisis-sentimientos-noticieros-chilenos
 	{
 		slug: 'analisis-sentimientos-noticieros-chilenos',
 		color: 'royalblue',
@@ -445,6 +514,7 @@ const items: Array<Project> = [
 			},
 		]
 	},
+	//slick-portfolio-svelte
 	{
 		slug: 'slick-portfolio-svelte',
 		color: '#ff3e00',
