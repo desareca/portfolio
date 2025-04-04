@@ -3,6 +3,20 @@ import { base } from '$app/paths';
 const urlImageStatic = (file: string) => `${base}/image/${file}`;
 
 const AssetsImage = {
+	ComidaSOM: urlImageStatic('comida_rapida_III_som.png'),
+	ComidaPCAdia: urlImageStatic('comida_rapida_III_PCA_dia.png'),
+	ComidaPCAprod: urlImageStatic('comida_rapida_III_PCA_producto.png'),
+	ComidaPCAventa: urlImageStatic('comida_rapida_III_PCA_venta.png'),
+	ComidaISOMAPdia: urlImageStatic('comida_rapida_III_ISOMAP_dia.png'),
+	ComidaISOMAPprod: urlImageStatic('comida_rapida_III_ISOMAP_producto.png'),
+	ComidaISOMAPventa: urlImageStatic('comida_rapida_III_ISOMAP_venta.png'),
+	ComidaTSNEdia: urlImageStatic('comida_rapida_III_tSNE_dia.png'),
+	ComidaTSNEprod: urlImageStatic('comida_rapida_III_tSNE_producto.png'),
+	ComidaTSNEventa: urlImageStatic('comida_rapida_III_tSNE_venta.png'),
+	ComidaSOMdia: urlImageStatic('comida_rapida_III_SOM_dia.png'),
+	ComidaSOMprod: urlImageStatic('comida_rapida_III_SOM_producto.png'),
+	ComidaSOMventa: urlImageStatic('comida_rapida_III_SOM_venta.png'),
+
 	ComidaDist: urlImageStatic('comida_rapida_II_dist.png'),
 	ComidaRegL: urlImageStatic('comida_rapida_II_reglineal.png'),
 	ComidaKNN: urlImageStatic('comida_rapida_II_knn.png'),

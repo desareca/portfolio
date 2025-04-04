@@ -4,65 +4,149 @@ import { getSkills } from './skills';
 import type { Project } from './types';
 
 const items: Array<Project> = [
-		//venta-comida-rapida-2
-		{
-			slug: 'venta-comida-rapida-2',
-			color: 'steelblue',
-			description:
-				`<h1>Predicción de Ventas utilizando algoritmos de Machine Learning.</h1>
-				<br><br>
-				<div style="display: flex; justify-content: center; text-align: center;">
-				<img width="70%" height="auto" src="https://tecnologiabi.com/wp-content/uploads/2023/06/pronosticos-de-ventas-con-machine-learning.jpg">
-				</div>
-				<br><br>
-				Continuando con la serie de notebooks, tenemos datos de venta en un local de comida rápida en funcionamiento actualmente, que corresponden a los años 2020, 2021 y 2022.<br><br>
-				Estos datos tienen información de ventas diarias de Papas Fritas, Churrascos, Carne Mechada, Completo, SalchiPapas (ya me dió hambre 😋)....<br><br>
-				El objetivo es realizar una predicción de ventas de la semana siguiente si se cuentan con los datos de ventas de la semana anterior. Con esto se puede evaluar precios y planificar suministros, así ningún cliente se queda sin comer 🤤🍔🍟 y ganamos 💲💲💲.
-				<br><br>
-				<strong>Consideraciones</strong><br>
-				Se realiza un limpieza y análisis exploratorio que permita extraer información relevante de los datos.
-				\nAdemás, se implementan 5 modelos (Regresión Lineal, KNN, SVM, Random Forest y Gradient Boosting) y se evalua el mejor desempeño de acuerdo con distintas métricas.\nPor simplicidad se consideran las ventas totales de cada día de la semana anterior y la fecha de la semana a predecir.\nLos datos tienen varias semanas sin datos debido a la pandemia, por lo que se consideran solo las semanas con datos.
-				`,
-			shortDescription:
-				'Predicción de Ventas utilizando algoritmos de Machine Learning',
-			links: [
-				{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: 'Colab' }
-			],
-			logo: Assets.Python,
-			name: 'Ventas Local de Comida Rápida\nParte II',
-			period: {
-				from: new Date(2022, 1, 5),
-				to: new Date(2022, 4, 30),
+	//venta-comida-rapida-3
+	{
+		slug: 'venta-comida-rapida-3',
+		color: 'steelblue',
+		description:
+			`<h1>Busqueda de Patrones utilizando herramientas de aprendizaje no supervisado.</h1>
+			A continuación se presentan 2 aplicaciones, la primera desarrollando una función que permita implementar mapas autoorganizados (SOM) en Python y aplicarlo al dataset iris.<br><br>
+			Para luego realizar un análisis sobre los datos de ventas del local de comida rápida utilizando distintas herramnientas de análisis no supervisado, con el fin de buscar relaciones entre ventas, productos y días. Los algoritmos utilizados son PCA, ISOMAP, t-SNE y SOM.
+			<br><br>
+			<h2>Self-Organizing Map (SOM)</h2>
+			<div style="display: flex; justify-content: center; text-align: center;">
+			<img width="70%" height="auto" src=${AssetsImage.ComidaSOM}>
+			</div>
+			<br><br>
+			Un mapa autoorganizado (self-organizing map, SOM) o un mapa autoorganizado de características (self-organizing feature map, SOFM) es un tipo de red neuronal, que es entrenada usando aprendizaje no supervisado para producir una representación discreta del espacio de las muestras de entrada, llamado mapa.<br><br>
+			Los SOMs son útiles para visualizar vistas de baja dimensión de datos de alta dimensión, semejante a un escalado multidimensional. El objetivo del aprendizaje en los mapas autoorganizados es provocar que diferentes partes de la red respondan similarmente a ciertos patrones de la entrada.`,
+		shortDescription:
+			'Busqueda de Patrones utilizando herramientas de aprendizaje no supervisado',
+		links: [
+			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: 'Colab' }
+		],
+		logo: Assets.Python,
+		name: 'Ventas Local de Comida Rápida\nParte III',
+		period: {
+			from: new Date(2022, 1, 5),
+			to: new Date(2022, 4, 30),
+		},
+		skills: getSkills('python', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'sklearn'),
+		type: 'Machine Learning',
+		screenshots: [
+			{
+				label: 'Distribución de Variables',
+				src: AssetsImage.ComidaDist
 			},
-			skills: getSkills('python', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'sklearn'),
-			type: 'Machine Learning',
-			screenshots: [
-				{
-					label: 'Distribución de Variables',
-					src: AssetsImage.ComidaDist
-				},
-				{
-					label: 'Resultados Regresión Lineal',
-					src: AssetsImage.ComidaRegL
-				},
-				{
-					label: 'Resultados Regresión KNN',
-					src: AssetsImage.ComidaKNN
-				},
-				{
-					label: 'Resultados Regresión SVM',
-					src: AssetsImage.ComidaSVM
-				},
-				{
-					label: 'Resultados Regresión Random Forest',
-					src: AssetsImage.ComidaRF
-				},
-				{
-					label: 'Resultados Regresión Gradient Boosting',
-					src: AssetsImage.ComidaGB
-				}
-			]
-		},	
+			{
+				label: 'Representación de los datos con PCA agrupado por días',
+				src: AssetsImage.ComidaPCAdia
+			},
+			{
+				label: 'Representación de los datos con PCA agrupado por productos',
+				src: AssetsImage.ComidaPCAprod
+			},
+			{
+				label: 'Representación de los datos con PCA agrupado por ventas',
+				src: AssetsImage.ComidaPCAventa
+			},
+			{
+				label: 'Representación de los datos con ISOMAP agrupado por días',
+				src: AssetsImage.ComidaISOMAPdia
+			},
+			{
+				label: 'Representación de los datos con ISOMAP agrupado por productos',
+				src: AssetsImage.ComidaISOMAPprod
+			},
+			{
+				label: 'Representación de los datos con ISOMAP agrupado por ventas',
+				src: AssetsImage.ComidaISOMAPventa
+			},
+			{
+				label: 'Representación de los datos con t-SNE agrupado por días',
+				src: AssetsImage.ComidaTSNEdia
+			},
+			{
+				label: 'Representación de los datos con t-SNE agrupado por productos',
+				src: AssetsImage.ComidaTSNEprod
+			},
+			{
+				label: 'Representación de los datos con t-SNE agrupado por ventas',
+				src: AssetsImage.ComidaTSNEventa
+			},
+			{
+				label: 'Representación de los datos con SOM agrupado por días',
+				src: AssetsImage.ComidaSOMdia
+			},
+			{
+				label: 'Representación de los datos con SOM agrupado por productos',
+				src: AssetsImage.ComidaSOMprod
+			},
+			{
+				label: 'Representación de los datos con SOM agrupado por ventas',
+				src: AssetsImage.ComidaSOMventa
+			},
+		]
+	},
+	//venta-comida-rapida-2
+	{
+		slug: 'venta-comida-rapida-2',
+		color: 'steelblue',
+		description:
+			`<h1>Predicción de Ventas utilizando algoritmos de Machine Learning.</h1>
+			<br><br>
+			<div style="display: flex; justify-content: center; text-align: center;">
+			<img width="70%" height="auto" src="https://tecnologiabi.com/wp-content/uploads/2023/06/pronosticos-de-ventas-con-machine-learning.jpg">
+			</div>
+			<br><br>
+			Continuando con la serie de notebooks, tenemos datos de venta en un local de comida rápida en funcionamiento actualmente, que corresponden a los años 2020, 2021 y 2022.<br><br>
+			Estos datos tienen información de ventas diarias de Papas Fritas, Churrascos, Carne Mechada, Completo, SalchiPapas (ya me dió hambre 😋)....<br><br>
+			El objetivo es realizar una predicción de ventas de la semana siguiente si se cuentan con los datos de ventas de la semana anterior. Con esto se puede evaluar precios y planificar suministros, así ningún cliente se queda sin comer 🤤🍔🍟 y ganamos 💲💲💲.
+			<br><br>
+			<strong>Consideraciones</strong><br>
+			Se realiza un limpieza y análisis exploratorio que permita extraer información relevante de los datos.
+			\nAdemás, se implementan 5 modelos (Regresión Lineal, KNN, SVM, Random Forest y Gradient Boosting) y se evalua el mejor desempeño de acuerdo con distintas métricas.\nPor simplicidad se consideran las ventas totales de cada día de la semana anterior y la fecha de la semana a predecir.\nLos datos tienen varias semanas sin datos debido a la pandemia, por lo que se consideran solo las semanas con datos.
+			`,
+		shortDescription:
+			'Predicción de Ventas utilizando algoritmos de Machine Learning',
+		links: [
+			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: 'Colab' }
+		],
+		logo: Assets.Python,
+		name: 'Ventas Local de Comida Rápida\nParte II',
+		period: {
+			from: new Date(2022, 1, 5),
+			to: new Date(2022, 4, 30),
+		},
+		skills: getSkills('python', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'sklearn'),
+		type: 'Machine Learning',
+		screenshots: [
+			{
+				label: 'Distribución de Variables',
+				src: AssetsImage.ComidaDist
+			},
+			{
+				label: 'Resultados Regresión Lineal',
+				src: AssetsImage.ComidaRegL
+			},
+			{
+				label: 'Resultados Regresión KNN',
+				src: AssetsImage.ComidaKNN
+			},
+			{
+				label: 'Resultados Regresión SVM',
+				src: AssetsImage.ComidaSVM
+			},
+			{
+				label: 'Resultados Regresión Random Forest',
+				src: AssetsImage.ComidaRF
+			},
+			{
+				label: 'Resultados Regresión Gradient Boosting',
+				src: AssetsImage.ComidaGB
+			}
+		]
+	},	
 	//venta-comida-rapida-1
 	{
 		slug: 'venta-comida-rapida-1',
