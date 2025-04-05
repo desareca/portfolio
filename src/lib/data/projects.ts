@@ -1,5 +1,6 @@
 import Assets  from './assets';
 import AssetsImage  from './assetsImage';
+import AssetsProject from './assetsProject';
 import { getSkills } from './skills';
 import type { Project } from './types';
 
@@ -8,18 +9,7 @@ const items: Array<Project> = [
 	{
 		slug: 'venta-comida-rapida-3',
 		color: 'steelblue',
-		description:
-			`<h1>Busqueda de Patrones utilizando herramientas de aprendizaje no supervisado.</h1>
-			A continuación se presentan 2 aplicaciones, la primera desarrollando una función que permita implementar mapas autoorganizados (SOM) en Python y aplicarlo al dataset iris.<br><br>
-			Para luego realizar un análisis sobre los datos de ventas del local de comida rápida utilizando distintas herramnientas de análisis no supervisado, con el fin de buscar relaciones entre ventas, productos y días. Los algoritmos utilizados son PCA, ISOMAP, t-SNE y SOM.
-			<br><br>
-			<h2>Self-Organizing Map (SOM)</h2>
-			<div style="display: flex; justify-content: center; text-align: center;">
-			<img width="70%" height="auto" src=${AssetsImage.ComidaSOM}>
-			</div>
-			<br><br>
-			Un mapa autoorganizado (self-organizing map, SOM) o un mapa autoorganizado de características (self-organizing feature map, SOFM) es un tipo de red neuronal, que es entrenada usando aprendizaje no supervisado para producir una representación discreta del espacio de las muestras de entrada, llamado mapa.<br><br>
-			Los SOMs son útiles para visualizar vistas de baja dimensión de datos de alta dimensión, semejante a un escalado multidimensional. El objetivo del aprendizaje en los mapas autoorganizados es provocar que diferentes partes de la red respondan similarmente a ciertos patrones de la entrada.`,
+		description: AssetsProject.ComidaIII,
 		shortDescription:
 			'Busqueda de Patrones utilizando herramientas de aprendizaje no supervisado',
 		links: [
@@ -92,21 +82,7 @@ const items: Array<Project> = [
 	{
 		slug: 'venta-comida-rapida-2',
 		color: 'steelblue',
-		description:
-			`<h1>Predicción de Ventas utilizando algoritmos de Machine Learning.</h1>
-			<br><br>
-			<div style="display: flex; justify-content: center; text-align: center;">
-			<img width="70%" height="auto" src="https://tecnologiabi.com/wp-content/uploads/2023/06/pronosticos-de-ventas-con-machine-learning.jpg">
-			</div>
-			<br><br>
-			Continuando con la serie de notebooks, tenemos datos de venta en un local de comida rápida en funcionamiento actualmente, que corresponden a los años 2020, 2021 y 2022.<br><br>
-			Estos datos tienen información de ventas diarias de Papas Fritas, Churrascos, Carne Mechada, Completo, SalchiPapas (ya me dió hambre 😋)....<br><br>
-			El objetivo es realizar una predicción de ventas de la semana siguiente si se cuentan con los datos de ventas de la semana anterior. Con esto se puede evaluar precios y planificar suministros, así ningún cliente se queda sin comer 🤤🍔🍟 y ganamos 💲💲💲.
-			<br><br>
-			<strong>Consideraciones</strong><br>
-			Se realiza un limpieza y análisis exploratorio que permita extraer información relevante de los datos.
-			\nAdemás, se implementan 5 modelos (Regresión Lineal, KNN, SVM, Random Forest y Gradient Boosting) y se evalua el mejor desempeño de acuerdo con distintas métricas.\nPor simplicidad se consideran las ventas totales de cada día de la semana anterior y la fecha de la semana a predecir.\nLos datos tienen varias semanas sin datos debido a la pandemia, por lo que se consideran solo las semanas con datos.
-			`,
+		description: AssetsProject.ComidaII,
 		shortDescription:
 			'Predicción de Ventas utilizando algoritmos de Machine Learning',
 		links: [
@@ -151,33 +127,7 @@ const items: Array<Project> = [
 	{
 		slug: 'venta-comida-rapida-1',
 		color: 'steelblue',
-		description:
-			`<h1>Análisis Exploratorio e Inferencia para determinar estacionalidad en las ventas.</h1>
-			<br><br>
-			<div style="display: flex; justify-content: center; text-align: center;">
-			<img width="70%" height="auto" src=${AssetsImage.ComidaAnalisis}>
-			</div>
-			<br><br>
-			Como parte del Diplomado en Data Science desarrollé un conjunto de notebooks para aplicar distintas herramientas de Data Science en un contexto real y acotado.<br><br>
-			Para el desarrollo de este y demás notebooks se consideran los datos reales de venta de un local de comida rápida. En este caso, tenemos el archivo Ventas 2021-2022.xlsx, que contiene las ventas diarias del 2021/2022 del local. Cada fila representa la venta diaria de un producto.<br><br>
-			El objetivo principal es realizar una estimación de venta (2 semanas) de los principales productos del local para poder planificar la compra de suministros mediante una simulación Monte Carlo y así ningún cliente quede sin comer 🤤🍔🍟.
-			Además, se realiza un análisis exploratorio utilizando la librería SweetViz que entrega de manera automática las principales estadísticas y visualizaciones de un análsiis exploratorio típico y un test de hipótesis sobre como varía la estacionalidad de la venta de cada producto, con el fin de priorizar el stock de los productos.
-			<br><br>
-			<strong>Consideraciones</strong><br><br>
-			Para el análisis sólo se consideran los productos más relevantes en ventas y/o que están actualmente en carta, estos son:
-			<ul>
-			<li>Papas Fritas</li>
-			<li>Churrascos</li>
-			<li>Café</li>
-			<li>Chuleta de Cerdo</li>
-			<li>1/4 de Pollo</li>
-			<li>Carne Mechada</li>
-			<li>Barros Luco</li>
-			<li>Chacarero</li>
-			<li>Completo</li>
-			<li>SalchiPapas</li>
-			</ul><br>
-			Además, sólo se consideran los meses de Diciembre, Enero y Febrero, debido a que este tipo de negocio es mayormente estacional y la simulación podría no ser necesariamente válida considerando un año completo.`,
+		description: AssetsProject.ComidaI,
 		shortDescription:
 			'Análisis Exploratorio e Inferencia para determinar estacionalidad en las ventas',
 		links: [
@@ -210,14 +160,7 @@ const items: Array<Project> = [
 	{
 		slug: 'prediccion-erupcion-volcanica',
 		color: 'royalblue',
-		description:
-			`<div style="display: flex; justify-content: center; text-align: center;">
-			<img width="70%" height="auto" src="https://images.pexels.com/photos/13337517/pexels-photo-13337517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
-			</div>
-			<br><br>
-			El Instituto Nacional de Geofísica y Vulcanología (INGV) de Italia se centra en la geofísica y la vulcanología. Su principal objetivo es contribuir a la comprensión del sistema terrestre y, al mismo tiempo, mitigar los riesgos asociados. Encargado de monitorear la sismicidad y la actividad volcánica activa las 24 horas del día en todo el país, el INGV busca encontrar los precursores detectables más tempranos que proporcionen información sobre la cronología de futuras erupciones volcánicas.
-			<br><br>
-			El objetivo es predecir cuándo ocurrirá la próxima erupción de un volcán, para ello se analiza un amplio conjunto de datos geofísicos recopilados por sensores instalados en volcanes activos, calculando features de las series temporales para entrenar un modelo XGBoost que prediga cuando será la próxima erupción.`,
+		description: AssetsProject.Volcanic,
 		shortDescription:
 			'Predicción de erupciones volcánicas con XGBoost',
 		links: [
@@ -250,16 +193,7 @@ const items: Array<Project> = [
 	{
 		slug: 'kaggle-survey-2020',
 		color: 'royalblue',
-		description:
-			`<div style="display: flex; justify-content: center; text-align: center;">
-			<img width="70%" height="auto" src=${AssetsImage.K2020Req}>
-			</div>
-			<br><br>
-			El año 2020 Kaggle realizó una encuesta a nivel de toda la industria que presenta una visión verdaderamente completa del estado de la ciencia de datos y el aprendizaje automático. La encuesta estuvo activa durante 3,5 semanas en octubre y, tras depurar los datos se obtuvieron 20.036 respuestas.
-			<br><br>
-			Los resultados incluyen cifras sin procesar sobre quién trabaja con datos, qué está sucediendo con el aprendizaje automático en diferentes industrias y las mejores maneras para que los nuevos científicos de datos se adentren en este campo. 
-			<br><br>
-			A continuación se presenta un análisis con visualización interactiva de los datos.`,
+		description: AssetsProject.Kaggle2020,
 		shortDescription:
 			'Visualización de datos de la encuesta Kaggle 2020 sobre ciencia de datos y aprendizaje automático.',
 		links: [
@@ -300,22 +234,7 @@ const items: Array<Project> = [
 	{
 		slug: 'game-life-genetic-algorithm',
 		color: 'royalblue',
-		description:
-			`El Juego de la vida es un autómata celular diseñado por el matemático británico John Horton Conway en 1970. Es un juego de cero jugadores, en el que su evolución es determinada por un estado inicial, sin requerir intervención adicional.
-			<br><br>
-			<div style="display: flex; justify-content: center; text-align: center;">
-			<img width="50%" height="auto" src='https://miro.medium.com/v2/resize:fit:720/format:webp/1*6wS-kXlOCBsAJciygkJtDA.gif'>
-			</div>
-			<br><br>	
-			El juego se desarrolla en una cuadrícula de celdas, donde cada celda puede estar viva o muerta. En cada paso del tiempo, el estado de cada celda se determina por el estado de sus ocho vecinos (celdas adyacentes). Las reglas son las siguientes:
-			<ul>
-			<li>Una celda viva con menos de dos vecinos vivos muere (subpoblación).
-			<li>Una celda viva con dos o tres vecinos vivos permanece viva (supervivencia).
-			<li>Una celda viva con más de tres vecinos vivos muere (sobrepoblación).
-			<li>Una celda muerta con exactamente tres vecinos vivos se convierte en una celda viva (reproducción). 
-			</ul>
-			<br>
-			A continuación se implementa una solución utilizando algoritmos genéticos para encontrar el punto de partida edl juego a partir de estados finales.`,
+		description: AssetsProject.GameLife,
 		shortDescription:
 			'Optimización mediante algoritmos genéticos para resolver el juego de la vida inverso.',
 		links: [
@@ -348,20 +267,7 @@ const items: Array<Project> = [
 	{
 		slug: 'som-clasificacion-imagenes',
 		color: 'royalblue',
-		description:
-			`<div style="display: flex; justify-content: center; text-align: center;">
-			<img width="70%" height="auto" src='https://www.mdpi.com/cleantechnol/cleantechnol-02-00011/article_deploy/html/images/cleantechnol-02-00011-g001.png'>
-			</div>
-			<br><br>			
-			Los mapas autorganizados de Kohonen son un algoritmo que a partir de un proceso iterativo de comparacion con un conjunto de datos y cambios para aproximarse a los mismos, crea un modelo de esos mismos datos que puede servir para agruparlos por criterios de similitud; adicionalmente, este agrupamiento se produce de forma que la proyeccion de estos datos sobre el mapa distribuya sus caracteristicas de una forma gradual. El Mapa de Kohonen, SOM se usa para diferentes aplicaciones:
-			<ul>			
-			<li>Clustering: se pueden agrupar datos del conjunto de entrada, atendiendo a diferentes criterios.
-			<li>Visualizacion: este agrupamiento, como se realiza de una forma ordenada, permite visualizar al conjunto de entrada y descubrir caracteristicas nuevas o relaciones que no se habian previsto de antemano. Tambien permite visualizar la evolucion temporal de un conjunto de datos: proyectando un vector en etapas sucesivas sobre un mapa entrenado se ve como se va moviendo de una zona con unas caracteristicas determinadas a otra.
-			<li>Clasificacion: aunque el entrenamiento del mapa no tiene en cuenta la etiqueta de clase o el tipo de cada uno de los vectores de entrada, una vez terminado el entrenamiento se puede asignar algun tipo de etiqueta a cada nodo, y se puede usar para clasificar datos desconocidos.
-			<li>Interpolacion de una funcion: asignando valores numericos a cada uno de los nodos de la red de Kohonen, se pueden asignar esos valores numericos a los vectores de entrada: a cada vector (dato) de entrada le correspondera el numero o vector asignados a la salida mas cercana.
-			<li>Cuantizacion vectorial: corresponde a la aplicacion de una entrada continua a una salida que esta discretizada, obteniendo a partir de un vector cualquiera el vector mas cercano de un conjunto previamente establecido.
-			</ul>
-			A continuacion se implementan mapas autorganizados para la reduccion dimensional, visualizacion de caracteristicas y clasificacion de imágenes, considerando dataset de números y de rostros.`,
+		description: AssetsProject.SomClassify,
 		shortDescription:
 			'Clasificación de imágenes mediante mapas autorganizados de Kohonen.',
 		links: [
@@ -403,12 +309,7 @@ const items: Array<Project> = [
 	{
 		slug: 'fifa19-analisis-prediccion',
 		color: 'royalblue',
-		description:
-			`<div style="display: flex; justify-content: center; text-align: center;">
-			<img width="70%" height="auto" src='https://cdn.resfu.com/media/img_news/montaje-de-las-portadas-de-fifa-19-de-ilustrador-fred-illustrations--montaje-fred-illustrations.png?size=1000x&lossy=1&ext=jpeg'>
-			</div>
-			<br><br>
-			FIFA 19 (de la saga FIFA) es un videojuego de simulación de fútbol desarrollado por EA Vancouver como parte de la serie FIFA de Electronic Arts. <br>El primer juego de la saga se caracterizaba por su perspectiva isométrica o de tres cuartos, que se diferenciaba de los otros títulos que ofrecían una vista desde arriba o vista de pájaro. Un aspecto importante era el sonido del público en el estadio, que estaba basado en grabaciones en vivo y que le proporcionaban un mayor realismo al desarrollo del juego con cánticos de los aficionados. El juego presentaba representativos nacionales, y un equipo especial formado por un selectivo de jugadores, este equipo se llama EA Sports. <br>A pesar de todos los defectos que presentaba no hay duda que en su época fue todo un éxito, la gente de EA Sports año tras año continuaba mejorando sus juegos FIFA. La nueva generación de FIFA cambio mucho, la inteligencia artificial (IA) de los jugadores es ahora más desarrollada.`,
+		description: AssetsProject.Fifa19,
 		shortDescription:
 			'FIFA 19 (de la saga FIFA) es un videojuego de simulación de fútbol desarrollado por EA Vancouver como parte de la serie FIFA de Electronic Arts.',
 		links: [
@@ -451,12 +352,7 @@ const items: Array<Project> = [
 	{
 		slug: 'prediccion-remuneracion-futbolistas',
 		color: 'steelblue',
-		description:
-			`<div style="display: flex; justify-content: center; text-align: center;">
-			<img width="70%" height="auto" src='https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?auto=compress&cs=tinysrgb&w=640&h=427&dpr=2'>
-			</div>
-			<br><br>
-			Predicción de remuneraciones de futbolistas a partir de estadísticas sobre sus habilidades de juego. Para ellos se filtrarán los datos de habilidades y se realizará un análisis exploratorio para identificar patrones en los datos que permitan tener información fiable e implementar una predicción mediante una regresión lineal en tensorflow.`,
+		description: AssetsProject.RemFut,
 		shortDescription:
 			'Predicción de remuneraciones de futbolistas a partir de estadísticas sobre sus habilidades de juego.',
 		links: [
@@ -486,12 +382,7 @@ const items: Array<Project> = [
 	{
 		slug: 'clasificacion-infarto-cardiaco',
 		color: 'steelblue',
-		description:
-			`<div style="display: flex; justify-content: center; text-align: center;">
-			<img width="70%" height="auto" src='https://images.pexels.com/photos/1093161/pexels-photo-1093161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'>
-			</div>
-			<br><br>
-			Clasificación binaria para predecir en base a las variables si un paciente con un determinado número de medidas médicas es susceptible de tener enfermedad de corazón o no.<br><ul><li>La clasificación se considerará satisfactoria si alcanza una exactitud de 0.9.<li>Para ello se realizará un análisis exploratorio de las variables evaluando que variables aportan a la predicción, posteriormente se dividirán los datos en conjunto de entrenamiento (80%) y conjunto de validación (20%).<li>Con esto se realizarán diversos algoritmos de clasificación binaria mediante ternsorflow, donde el entrenamiento se realizará utilizando validación cruzada aleatoria (en cada algoritmo hay una descripción del procedimiento utilizado).<li>Finalmente la comparación de los algoritmos se relizará con la exactitud de cada algoritmo sobre el conjunto de validación.</ul>`,
+		description: AssetsProject.InfCardiaco,
 		shortDescription:
 			'Clasificación binaria para predecir en base a las variables si un paciente con un determinado número de medidas médicas es susceptible de tener enfermedad de corazón o no.',
 		links: [
@@ -521,12 +412,7 @@ const items: Array<Project> = [
 	{
 		slug: 'analisis-consumidores-mall',
 		color: 'steelblue',
-		description:
-			`<div style="display: flex; justify-content: center; text-align: center;">
-			<img width="70%" height="auto" src='https://images.pexels.com/photos/54581/escalator-stairs-metal-segments-architecture-54581.jpeg'>
-			</div>
-			<br><br>
-			Regresión para predecir el puntaje de los clientes en un mall.<br>Para el análisis se considerará:<br><ul><li>Un breve análisis exploratorio de los datos.<li>Dividir los datos en conjunto de entrenamiento y validación (80%-20%).<li>Con esto se realizarán diversos algoritmos de regresión mediante ternsorflow, donde el entrenamiento se realizará utilizando validación cruzada aleatoria (en cada algoritmo hay una descripción del procedimiento utilizado).<li>El conjunto de validación se utilizará para comparar el RMSE de cada método.</ul>`,
+		description: AssetsProject.ConsumMall,
 		shortDescription:
 			'Regresión para predecir el puntaje de los clientes en un mall.',
 		links: [
@@ -564,15 +450,7 @@ const items: Array<Project> = [
 	{
 		slug: 'analisis-sentimientos-noticieros-chilenos',
 		color: 'royalblue',
-		description:
-			`<div style="display: flex; justify-content: center; text-align: center;">
-			<img width="50%" height="auto" src='https://upload.wikimedia.org/wikipedia/commons/e/e4/Twitter_2012_logo.svg'>
-			</div>
-			Twitter es actualmente una dinámica fuente de contenidos que, dada su popularidad e impacto, se ha convertido en uno de los principales medios de difusión de los principales medios de comunicación tradicionales (radio y televisión).
-			<br><br>
-			A continuación se realiza un análisis de sentimientos de los tweets de noticieros chilenos para así concluir si existe algún patrón entre los sentimientos evocados por los tweets de los noticieros. Para ello, se analizan las publicaciones que han hecho en Twitter los noticieros de @CNNChile, @ahoranoticiasAN, @24HorasTVN, @T13 y @CHVNoticias.
-			<br><br>
-			Se consideraron Tweets entre el periodo de abril a junio del 2019.`,
+		description: AssetsProject.NoticiaChile,
 		shortDescription:
 			'Twitter es actualmente una dinámica fuente de contenidos que, dada su popularidad e impacto, se ha convertido en uno de los principales medios de difusión de los principales medios de comunicación tradicionales (radio y televisión).',
 		links: [
@@ -602,8 +480,7 @@ const items: Array<Project> = [
 	{
 		slug: 'slick-portfolio-svelte',
 		color: '#ff3e00',
-		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+		description: AssetsProject.PortfolioSvelte,
 		shortDescription:
 			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],

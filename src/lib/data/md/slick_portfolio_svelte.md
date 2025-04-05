@@ -1,0 +1,1 @@
+A Vercel-like developer portfolio website template made with Typescript and SvelteKit.
