@@ -440,16 +440,7 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('python', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'sklearn', 'tensorflow'),
 		type: 'Regresión',
-		screenshots: [
-			{
-				label: 'Matriz de Correlación',
-				src: 'https://github.com/desareca/Proyectos_tensorflow/raw/master/Remuneracion-Furtbolistas/corr.png'
-			},
-			{
-				label: 'Pérdida del modelo',
-				src: 'https://github.com/desareca/Proyectos_tensorflow/raw/master/Remuneracion-Furtbolistas/loss.png'
-			}
-		]
+		screenshots: []
 	},
 	//clasificacion-infarto-cardiaco
 	{
@@ -470,16 +461,7 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('python', 'pandas', 'numpy', 'matplotlib', 'sklearn', 'tensorflow'),
 		type: 'Clasificación',
-		screenshots: [
-			{
-				label: 'Matriz de Correlación',
-				src: 'https://github.com/desareca/Proyectos_tensorflow/raw/master/Probabilidad-Infarto-Cardiaco/corr.png'
-			},
-			{
-				label: 'Accuracy',
-				src: 'https://github.com/desareca/Proyectos_tensorflow/raw/master/Probabilidad-Infarto-Cardiaco/acc.png'
-			}
-		]
+		screenshots: []
 	},
 	//analisis-consumidores-mall
 	{
