@@ -14,15 +14,11 @@ import comidaII from './md/comida_rapida_2.md?raw';
 import comidaIII from './md/comida_rapida_3.md?raw';
 import comidaIV from './md/comida_rapida_4.md?raw';
 
-console.log(typeof AssetsImage)
-console.log(AssetsImage["ComidaSOM"])
-
-console.log(Object.keys(AssetsImage).indexOf("ComidaSOM"))
-
-function replaceImagePathVars(obj: string, imgs: string[], AssetsImage_: any = AssetsImage): string {
+// Function to replace image path variables in the markdown content
+function replaceImagePathVars(obj: string, imgs: string[], assetsImage: any = AssetsImage): string {
 	imgs.forEach(img => {
 	  const regex = new RegExp(`\\$\\{AssetsImage\\.${img}\\}`, 'g');
-	  obj = obj.replace(regex, AssetsImage_[img]);
+	  obj = obj.replace(regex, assetsImage[img]);
 	});
 	return obj;
   }
@@ -42,7 +38,6 @@ const AssetsProject = {
 	ConsumMall: consumMall,
 	NoticiaChile: noticiaChile,
 	PortfolioSvelte: portfolioSvelte,
-
 };
 
 export default AssetsProject;

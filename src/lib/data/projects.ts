@@ -5,79 +5,79 @@ import { getSkills } from './skills';
 import type { Project } from './types';
 
 const items: Array<Project> = [
-		//venta-comida-rapida-4
-		{
-			slug: 'venta-comida-rapida-4',
-			color: 'steelblue',
-			description: AssetsProject.ComidaIV,
-			shortDescription:
-				'Busqueda de Patrones utilizando herramientas de deep learning',
-			links: [
-				{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: 'Colab' }
-			],
-			logo: Assets.Python,
-			name: `Ventas Local de Comida Rápida (Parte IV)`,
-			period: {
-				from: new Date(2022, 1, 5),
-				to: new Date(2022, 4, 30),
-			},
-			skills: getSkills('python', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'sklearn', 'keras', 'tensorflow'),
-			type: 'Machine Learning',
-			screenshots: [
-				{
-					label: 'Distribución de Variables',
-					src: AssetsImage.ComidaDist
-				},
-				{
-					label: 'Representación de los datos con PCA agrupado por días',
-					src: AssetsImage.ComidaPCAdia
-				},
-				{
-					label: 'Representación de los datos con PCA agrupado por productos',
-					src: AssetsImage.ComidaPCAprod
-				},
-				{
-					label: 'Representación de los datos con PCA agrupado por ventas',
-					src: AssetsImage.ComidaPCAventa
-				},
-				{
-					label: 'Representación de los datos con ISOMAP agrupado por días',
-					src: AssetsImage.ComidaISOMAPdia
-				},
-				{
-					label: 'Representación de los datos con ISOMAP agrupado por productos',
-					src: AssetsImage.ComidaISOMAPprod
-				},
-				{
-					label: 'Representación de los datos con ISOMAP agrupado por ventas',
-					src: AssetsImage.ComidaISOMAPventa
-				},
-				{
-					label: 'Representación de los datos con t-SNE agrupado por días',
-					src: AssetsImage.ComidaTSNEdia
-				},
-				{
-					label: 'Representación de los datos con t-SNE agrupado por productos',
-					src: AssetsImage.ComidaTSNEprod
-				},
-				{
-					label: 'Representación de los datos con t-SNE agrupado por ventas',
-					src: AssetsImage.ComidaTSNEventa
-				},
-				{
-					label: 'Representación de los datos con SOM agrupado por días',
-					src: AssetsImage.ComidaSOMdia
-				},
-				{
-					label: 'Representación de los datos con SOM agrupado por productos',
-					src: AssetsImage.ComidaSOMprod
-				},
-				{
-					label: 'Representación de los datos con SOM agrupado por ventas',
-					src: AssetsImage.ComidaSOMventa
-				},
-			]
+	//venta-comida-rapida-4
+	{
+		slug: 'venta-comida-rapida-4',
+		color: 'steelblue',
+		description: AssetsProject.ComidaIV,
+		shortDescription:
+			'Busqueda de Patrones utilizando herramientas de deep learning',
+		links: [
+			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: 'Colab' }
+		],
+		logo: Assets.Python,
+		name: `Ventas Local de Comida Rápida (Parte IV)`,
+		period: {
+			from: new Date(2022, 1, 5),
+			to: new Date(2022, 4, 30),
 		},
+		skills: getSkills('python', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'sklearn', 'keras', 'tensorflow'),
+		type: 'Machine Learning',
+		screenshots: [
+			{
+				label: 'Distribución de Variables',
+				src: AssetsImage.ComidaDist
+			},
+			{
+				label: 'Representación de los datos con PCA agrupado por días',
+				src: AssetsImage.ComidaPCAdia
+			},
+			{
+				label: 'Representación de los datos con PCA agrupado por productos',
+				src: AssetsImage.ComidaPCAprod
+			},
+			{
+				label: 'Representación de los datos con PCA agrupado por ventas',
+				src: AssetsImage.ComidaPCAventa
+			},
+			{
+				label: 'Representación de los datos con ISOMAP agrupado por días',
+				src: AssetsImage.ComidaISOMAPdia
+			},
+			{
+				label: 'Representación de los datos con ISOMAP agrupado por productos',
+				src: AssetsImage.ComidaISOMAPprod
+			},
+			{
+				label: 'Representación de los datos con ISOMAP agrupado por ventas',
+				src: AssetsImage.ComidaISOMAPventa
+			},
+			{
+				label: 'Representación de los datos con t-SNE agrupado por días',
+				src: AssetsImage.ComidaTSNEdia
+			},
+			{
+				label: 'Representación de los datos con t-SNE agrupado por productos',
+				src: AssetsImage.ComidaTSNEprod
+			},
+			{
+				label: 'Representación de los datos con t-SNE agrupado por ventas',
+				src: AssetsImage.ComidaTSNEventa
+			},
+			{
+				label: 'Representación de los datos con SOM agrupado por días',
+				src: AssetsImage.ComidaSOMdia
+			},
+			{
+				label: 'Representación de los datos con SOM agrupado por productos',
+				src: AssetsImage.ComidaSOMprod
+			},
+			{
+				label: 'Representación de los datos con SOM agrupado por ventas',
+				src: AssetsImage.ComidaSOMventa
+			},
+		]
+	},
 	//venta-comida-rapida-3
 	{
 		slug: 'venta-comida-rapida-3',
