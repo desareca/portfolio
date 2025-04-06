@@ -397,29 +397,7 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('r', 'tidyverse', 'ggplot2', 'h2o'),
 		type: 'Análisis de Datos',
-		screenshots: [
-			{
-				label: 'Distribución edad de los jugadores',
-				src: AssetsImage.FIFA19Age
-			},
-			{
-				label: 'Distribución club de los jugadores',
-				src: AssetsImage.FIFA19Club
-			},
-			{
-				label: 'Remuneración vs Reputación',
-				src: AssetsImage.FIFA19AgeGan
-			},
-			{
-				label: 'Ganancia Jugadores por Edad',
-				src: AssetsImage.FIFA19Money
-			}
-			,
-			{
-				label: 'Valor Contrato (real vs predicción)',
-				src: AssetsImage.FIFA19Pred
-			}
-		]
+		screenshots: []
 	},
 	//prediccion-remuneracion-futbolistas
 	{

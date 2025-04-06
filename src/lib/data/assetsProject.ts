@@ -32,7 +32,7 @@ const AssetsProject = {
 	Kaggle2020: replaceImagePathVars(kaggle2020, ['K2020Req']),
 	GameLife: gameLife,
 	SomClassify: somClassify,
-	Fifa19: fifa19,
+	Fifa19: replaceImagePathVars(fifa19, ['FIFA19Age', 'FIFA19Club', 'FIFA19AgeGan', 'FIFA19Money', 'FIFA19Pred']),
 	RemFut: remFut,
 	InfCardiaco: infCardiaco,
 	ConsumMall: consumMall,
