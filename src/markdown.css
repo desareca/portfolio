@@ -20,8 +20,8 @@
 	--code-interpolation: #d19a66;
 	--code-class-name: #e06c75;
 
-	font-family: 'Space Mono', monospace;
-	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 
 	overflow-y: auto !important;
 }
@@ -88,7 +88,7 @@
 .markdown-container h3 {
 	margin-bottom: 0.45em;
 	margin-top: 0.45em;
-	font-weight: 900;
+	font-weight: 700;
 }
 
 .markdown-container h1 {
