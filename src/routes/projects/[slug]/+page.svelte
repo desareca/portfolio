@@ -65,6 +65,12 @@
 		<Separator />
 		{#if data.item.description.trim()}
 			<Markdown content={data.item.description} />
+			<div class="flex flex-row flex-wrap justify-center items-center gap-2 mb-4 mt-4">
+				<Muted>Enlaces:</Muted>
+				{#each data.item.links as link (link.to)}
+					<a href={link.to} target="_blank" class="items-center"><Badge variant="outline"><Icon icon="i-carbon-link" className='mr-3 p-2 m-1'/> {link.label}</Badge></a>
+				{/each}
+			</div>
 		{:else}
 			<EmptyMarkdown />
 		{/if}
