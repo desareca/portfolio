@@ -29,11 +29,11 @@ function replaceImagePathVars(obj: string, imgs: string[], AssetsImage_: any = A
 
 const AssetsProject = {
 	ComidaIV: replaceImagePathVars(comidaIV, ['ComidaDLVae', 'ComidaDLReg', 'ComidaDLRF', 'ComidaDLDLArq', 'ComidaDLDLRes', 'ComidaDLCNNArq', 'ComidaDLCNNRes', 'ComidaDLCNNVaeRes', 'ComidaDLCNNPred']),
-	ComidaIII: comidaIII.replace(/\$\{AssetsImage\.ComidaSOM\}/g, AssetsImage.ComidaSOM),
+	ComidaIII: replaceImagePathVars(comidaIII, ['ComidaSOM']),
 	ComidaII: comidaII,
-	ComidaI: comidaI.replace(/\$\{AssetsImage\.ComidaAnalisis\}/g, AssetsImage.ComidaAnalisis),
+	ComidaI: replaceImagePathVars(comidaI, ['ComidaAnalisis']),
 	Volcanic: volcanic,
-	Kaggle2020: kaggle2020.replace(/\$\{AssetsImage\.K2020Req\}/g, AssetsImage.K2020Req),
+	Kaggle2020: replaceImagePathVars(kaggle2020, ['K2020Req']),
 	GameLife: gameLife,
 	SomClassify: somClassify,
 	Fifa19: fifa19,
