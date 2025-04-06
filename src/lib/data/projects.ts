@@ -500,24 +500,7 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('python', 'pandas', 'numpy', 'matplotlib', 'sklearn', 'tensorflow'),
 		type: 'Análisis de Datos',
-		screenshots: [
-			{
-				label: 'Pérdida de Regresión Lineal (ElasticNet)',
-				src: 'https://github.com/desareca/Proyectos_tensorflow/raw/master/Analisis-Consmidores/loss_elasticnet.png'
-			},
-			{
-				label: 'Pérdida de SVM Lineal',
-				src: 'https://github.com/desareca/Proyectos_tensorflow/raw/master/Analisis-Consmidores/loss_svm_lineal.png'
-			},
-			{
-				label: 'Pérdida de KNN',
-				src: 'https://github.com/desareca/Proyectos_tensorflow/raw/master/Analisis-Consmidores/loss_knn.png'
-			},
-			{
-				label: 'Pérdida de Red Neuronal',
-				src: 'https://github.com/desareca/Proyectos_tensorflow/raw/master/Analisis-Consmidores/loss_red_neuronal.png'
-			}
-		]
+		screenshots: []
 	},
 	//analisis-sentimientos-noticieros-chilenos
 	{
@@ -538,16 +521,7 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('r'),
 		type: 'Análisis de Datos',
-		screenshots: [
-			{
-				label: 'Distribución de Tweets en el tiempo',
-				src: 'https://github.com/desareca/Analisis-Sentimientos-Noticieros/raw/master/Distribucion%20tweets%20tiempo.png'
-			},
-			{
-				label: 'Analisis de Sentimientos de Tweets en el tiempo',
-				src: 'https://github.com/desareca/Analisis-Sentimientos-Noticieros/raw/master/Analisis%20sentimientos%20tweets%20tiempo.png'
-			},
-		]
+		screenshots: []
 	},
 	//slick-portfolio-svelte
 	{
