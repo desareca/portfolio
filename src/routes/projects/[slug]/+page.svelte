@@ -74,6 +74,7 @@
 		{:else}
 			<EmptyMarkdown />
 		{/if}
+		<!--
 		<Separator />
 		<div class="flex flex-col gap-2 px-4 pt-4">
 			{#if data.item.screenshots && data.item.screenshots.length > 0}
@@ -85,5 +86,6 @@
 				</div>
 			{/if}
 		</div>
+		-->
 	{/if}
 </BasePage>
