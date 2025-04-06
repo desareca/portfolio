@@ -12,8 +12,23 @@ import volcanic from './md/prediccion_erupcion_volcanica.md?raw';
 import comidaI from './md/comida_rapida_1.md?raw';
 import comidaII from './md/comida_rapida_2.md?raw';
 import comidaIII from './md/comida_rapida_3.md?raw';
+import comidaIV from './md/comida_rapida_4.md?raw';
+
+console.log(typeof AssetsImage)
+console.log(AssetsImage["ComidaSOM"])
+
+console.log(Object.keys(AssetsImage).indexOf("ComidaSOM"))
+
+function replaceImagePathVars(obj: string, imgs: string[], AssetsImage_: any = AssetsImage): string {
+	imgs.forEach(img => {
+	  const regex = new RegExp(`\\$\\{AssetsImage\\.${img}\\}`, 'g');
+	  obj = obj.replace(regex, AssetsImage_[img]);
+	});
+	return obj;
+  }
 
 const AssetsProject = {
+	ComidaIV: replaceImagePathVars(comidaIV, ['ComidaDLVae', 'ComidaDLReg', 'ComidaDLRF', 'ComidaDLDLArq', 'ComidaDLDLRes', 'ComidaDLCNNArq', 'ComidaDLCNNRes', 'ComidaDLCNNVaeRes', 'ComidaDLCNNPred']),
 	ComidaIII: comidaIII.replace(/\$\{AssetsImage\.ComidaSOM\}/g, AssetsImage.ComidaSOM),
 	ComidaII: comidaII,
 	ComidaI: comidaI.replace(/\$\{AssetsImage\.ComidaAnalisis\}/g, AssetsImage.ComidaAnalisis),
