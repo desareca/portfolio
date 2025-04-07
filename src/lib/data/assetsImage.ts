@@ -53,8 +53,10 @@ const AssetsImage = {
 	GLifePred: urlImageStatic('comp_prediccion.png'),
 
 	SomGral: urlImageStatic('som.png'),
+	SomMNIST: urlImageStatic('mnist.png'),
 	SomDistNum: urlImageStatic('dist_clase_x_neurona_numeros.png'),
 	SomMatrixNum: urlImageStatic('matriz_confusion_class_numeros.png'),
+	SomFace: urlImageStatic('face_expression.png'),
 	SomDistFace: urlImageStatic('dist_clase_x_neurona_rostros.png'),
 	SomMatrixFace: urlImageStatic('matriz_confusion_class_rostros.png'),
 
