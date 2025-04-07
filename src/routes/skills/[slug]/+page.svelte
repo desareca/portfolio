@@ -71,7 +71,7 @@
 		<Separator />
 		{#if related.length !== 0}
 			<div class="flex flex-row flex-wrap items-center gap-2 px-4 py-4">
-				<Muted>Related items</Muted>
+				<Muted>Temas Relacionados</Muted>
 				{#each related as item}
 					<a href={href(item.link)}>
 						<Badge>{item.name}</Badge>
