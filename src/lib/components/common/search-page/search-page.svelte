@@ -2,7 +2,6 @@
 	import Input from '$lib/components/ui/input/input.svelte';
 	import { onMount, type Snippet } from 'svelte';
 	import TitledPage from '../titled-page/titled-page.svelte';
-	import { replaceState } from '$app/navigation';
 
 	let {
 		title = 'Untitled',
@@ -25,7 +24,7 @@
 
 			const state = window.history.state;
 
-			replaceState(state, url);
+			window.history.replaceState(state, '', url);
 
 			onSearch(query);
 		}
