@@ -280,28 +280,7 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('r', 'tidyverse', 'ggplot2', 'plotly'),
 		type: 'Visualización de Datos',
-		screenshots: [
-			{
-				label: 'Cantidad de respuestas por país',
-				src: AssetsImage.K2020Req
-			},
-			{
-				label: 'Paises con mayor cantidad de respuestas',
-				src: AssetsImage.K2020RankC
-			},
-			{
-				label: 'Distribución de edades por región',
-				src: AssetsImage.K2020ReqAge
-			},
-			{
-				label: 'Distribución de sueldos por región',
-				src: AssetsImage.K2020ComR
-			},
-			{
-				label: 'Distribución de sueldos por edad',
-				src: AssetsImage.K2020ComA
-			},
-		]
+		screenshots: []
 	},
 	//game-life-genetic-algorithm
 	{
@@ -321,20 +300,7 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('r', 'tidyverse', 'ggplot2'),
 		type: 'Optimización - Algoritmos Genéticos',
-		screenshots: [
-			{
-				label: 'Implementación del juego de la vida',
-				src: AssetsImage.GLifeExample
-			},
-			{
-				label: 'Comparación de estados iniciales y finales',
-				src: AssetsImage.GLifeStartStop
-			},
-			{
-				label: 'Comparación de predicciones y resultados',
-				src: AssetsImage.GLifePred
-			}
-		]
+		screenshots: []
 	},
 	//som-clasificacion-imagenes
 	{
