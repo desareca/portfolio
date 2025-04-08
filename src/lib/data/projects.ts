@@ -237,7 +237,7 @@ const items: Array<Project> = [
 		shortDescription:
 			'Predicción de erupciones volcánicas con XGBoost',
 		links: [
-			{ to: 'https://www.kaggle.com/competitions/predict-volcanic-eruptions-ingv-oe/overview', label: 'Kaggle' }
+			{ to: 'https://www.kaggle.com/code/desareca/automl-volcanic-eruption-prediction', label: 'Kaggle' }
 		],
 		logo: Assets.R,
 		name: 'INGV - Predicción de Erupción Volcánica',
@@ -247,20 +247,7 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('r', 'tidyverse', 'ggplot2'),
 		type: 'Series de Tiempo',
-		screenshots: [
-			{
-				label: 'Error (MAE) de los Hiperparámetros',
-				src: AssetsImage.INGVHiper
-			},
-			{
-				label: 'Prediccón vs Real',
-				src: AssetsImage.INGVPred
-			},
-			{
-				label: 'Error (MAE) de Predicción',
-				src: AssetsImage.INGVError
-			}
-		]
+		screenshots: []
 	},
 	//kaggle-survey-2020
 	{

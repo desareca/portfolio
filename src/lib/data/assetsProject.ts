@@ -28,7 +28,7 @@ const AssetsProject = {
 	ComidaIII: replaceImagePathVars(comidaIII, ['ComidaSOM']),
 	ComidaII: comidaII,
 	ComidaI: replaceImagePathVars(comidaI, ['ComidaAnalisis']),
-	Volcanic: volcanic,
+	Volcanic: replaceImagePathVars(volcanic, ['INGVPred']),
 	Kaggle2020: replaceImagePathVars(kaggle2020, ['K2020Req', 'K2020RankC', 'K2020ReqAge', 'K2020ComR', 'K2020ComA']),
 	GameLife: replaceImagePathVars(gameLife, ['GLifeStartStop', 'GLifePred']),
 	SomClassify: replaceImagePathVars(somClassify, 
