@@ -49,7 +49,7 @@ El SOM resultante de los datos de la base de datos Face Expression genera que ca
 Utilizando la representación de los rostros en el SOM tenemos una clasificación con un accuraccy de 97.5%. Este resultado es muy bueno y reconoce a cada sujeto en su mayoría.
 <br><br>
 <div style="display: flex; justify-content: center; text-align: center;">
-    <img width="50%" height="auto" src=${AssetsImage.SomMatrixFace}>
+    <img width="42%" height="auto" src=${AssetsImage.SomMatrixFace}>
 </div>
 <br><br>
 Para revisar con más profundidad el análisis ir a los enlaces.
