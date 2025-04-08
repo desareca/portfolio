@@ -354,29 +354,7 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('r', 'tidyverse', 'ggplot2'),
 		type: 'Análisis de Datos',
-		screenshots: [
-			{
-				label: 'Estructura general de un SOM',
-				src: AssetsImage.SomGral
-			},
-			{
-				label: 'Distribución de números por neurona',
-				src: AssetsImage.SomDistNum
-			},
-			{
-				label: 'Matriz de Confusión SOM números',
-				src: AssetsImage.SomMatrixNum
-			},
-			{
-				label: 'Distribución de rostros por neurona',
-				src: AssetsImage.SomDistFace
-			}
-			,
-			{
-				label: 'Matriz de Confusión SOM rostros',
-				src: AssetsImage.SomMatrixFace
-			}
-		]
+		screenshots: []
 	},
 	//fifa19-analisis-prediccion
 	{
