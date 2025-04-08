@@ -207,7 +207,7 @@ const items: Array<Project> = [
 			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: 'Colab' }
 		],
 		logo: Assets.Python,
-		name: 'Ventas Local de Comida Rápida\nParte I',
+		name: 'Ventas Local de Comida Rápida (Parte I)',
 		period: {
 			from: new Date(2022, 1, 5),
 			to: new Date(2022, 4, 30),
