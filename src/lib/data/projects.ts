@@ -13,7 +13,10 @@ const items: Array<Project> = [
 		shortDescription:
 			'Busqueda de Patrones utilizando herramientas de deep learning',
 		links: [
-			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: 'Colab' }
+			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: 'Ventas Local de Comida Rápida (Parte I)' },
+			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: 'Ventas Local de Comida Rápida (Parte II)' },
+			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: 'Ventas Local de Comida Rápida (Parte III)' },
+			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: 'Ventas Local de Comida Rápida (Parte IV)' }
 		],
 		logo: Assets.Python,
 		name: `Ventas Local de Comida Rápida (Parte IV)`,
@@ -33,7 +36,10 @@ const items: Array<Project> = [
 		shortDescription:
 			'Busqueda de Patrones utilizando herramientas de aprendizaje no supervisado',
 		links: [
-			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: 'Colab' }
+			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: 'Ventas Local de Comida Rápida (Parte I)' },
+			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: 'Ventas Local de Comida Rápida (Parte II)' },
+			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: 'Ventas Local de Comida Rápida (Parte III)' },
+			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: 'Ventas Local de Comida Rápida (Parte IV)' }
 		],
 		logo: Assets.Python,
 		name: 'Ventas Local de Comida Rápida (Parte III)',
@@ -53,7 +59,10 @@ const items: Array<Project> = [
 		shortDescription:
 			'Predicción de Ventas utilizando algoritmos de Machine Learning',
 		links: [
-			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: 'Colab' }
+			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: 'Ventas Local de Comida Rápida (Parte I)' },
+			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: 'Ventas Local de Comida Rápida (Parte II)' },
+			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: 'Ventas Local de Comida Rápida (Parte III)' },
+			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: 'Ventas Local de Comida Rápida (Parte IV)' }
 		],
 		logo: Assets.Python,
 		name: 'Ventas Local de Comida Rápida (Parte II)',
@@ -73,7 +82,10 @@ const items: Array<Project> = [
 		shortDescription:
 			'Análisis Exploratorio e Inferencia para determinar estacionalidad en las ventas',
 		links: [
-			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: 'Colab' }
+			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: 'Ventas Local de Comida Rápida (Parte I)' },
+			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: 'Ventas Local de Comida Rápida (Parte II)' },
+			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: 'Ventas Local de Comida Rápida (Parte III)' },
+			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: 'Ventas Local de Comida Rápida (Parte IV)' }
 		],
 		logo: Assets.Python,
 		name: 'Ventas Local de Comida Rápida (Parte I)',
