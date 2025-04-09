@@ -162,7 +162,7 @@ const items: Array<Project> = [
 			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: 'Colab' }
 		],
 		logo: Assets.Python,
-		name: 'Ventas Local de Comida Rápida\nParte II',
+		name: 'Ventas Local de Comida Rápida (Parte II)',
 		period: {
 			from: new Date(2022, 1, 5),
 			to: new Date(2022, 4, 30),
@@ -214,20 +214,7 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('python', 'pandas', 'numpy', 'matplotlib'),
 		type: 'Análisis de Datos',
-		screenshots: [
-			{
-				label: 'Análisis Exploratorio General',
-				src: AssetsImage.ComidaAnalisis
-			},
-			{
-				label: 'Análisis Exploratorio por Producto',
-				src: AssetsImage.ComidaProd
-			},
-			{
-				label: 'Simulación Monte Carlo',
-				src: AssetsImage.ComidaMonteCarlo
-			}
-		]
+		screenshots: []
 	},
 	//prediccion-erupcion-volcanica
 	{

@@ -2,7 +2,7 @@
 A continuación se presentan 2 aplicaciones, la primera desarrollando una función que permita implementar mapas autoorganizados (SOM) en Python y aplicarlo al dataset iris.<br><br>
 Para luego realizar un análisis sobre los datos de ventas del local de comida rápida utilizando distintas herramnientas de análisis no supervisado, con el fin de buscar relaciones entre ventas, productos y días. Los algoritmos utilizados son PCA, ISOMAP, t-SNE y SOM.
 <br><br>
-<h2>Self-Organizing Map (SOM)</h2>
+<h4>Self-Organizing Map (SOM)</h4><br>
 <div style="display: flex; justify-content: center; text-align: center;">
 <img width="70%" height="auto" src=${AssetsImage.ComidaSOM}>
 </div>

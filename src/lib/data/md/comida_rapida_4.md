@@ -1,7 +1,8 @@
 <h1>Busqueda de Patrones utilizando herramientas de deep learning.</h1>
 Este análisis considera 2 partes, primero la implementación de un <strong>Autoencoder variacional</strong>, el objetivo es revisar el funcionamiento del algoritmo y generar datos sintéticos en caso de ser necesario. Luego una predicción de ventas de un local de comida rápida utilizando varios algoritmos de <strong>machine learnig</strong> y <strong>deep learning</strong>.
+<br><br>
 
-<h2>Autoencoders Variacionales (VAE)</h2>
+<h4>Autoencoders Variacionales (VAE)</h4><br>
 Un <strong>AutoEncoder (AE)</strong> es un tipo de red neuronal que se utiliza para aprender codificaciones eficientes de datos no etiquetados ( aprendizaje no supervisado ), normalmente se utiliza para reducción de la dimensionalidad. 
 <br><br>
 
@@ -14,7 +15,7 @@ Los <strong>Variational AutoEncoders (VAE)</strong> son modelos una combinación
     </div>
 <br><br>
 
-<h2>Predicción de Ventas con Deep Learning.</h2>
+<h4>Predicción de Ventas con Deep Learning.</h4><br>
 Se aplicaron 4 modelos Obteniendo los siguientes resultados:
 <ul>
     <li>Regresión Lineal (línea base)</li>

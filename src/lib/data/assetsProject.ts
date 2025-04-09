@@ -26,7 +26,7 @@ function replaceImagePathVars(obj: string, imgs: string[], assetsImage: any = As
 const AssetsProject = {
 	ComidaIV: replaceImagePathVars(comidaIV, ['ComidaDLVae', 'ComidaDLReg', 'ComidaDLRF', 'ComidaDLDLArq', 'ComidaDLDLRes', 'ComidaDLCNNArq', 'ComidaDLCNNRes', 'ComidaDLCNNVaeRes', 'ComidaDLCNNPred']),
 	ComidaIII: replaceImagePathVars(comidaIII, ['ComidaSOM']),
-	ComidaII: comidaII,
+	ComidaII: replaceImagePathVars(comidaII, ['ComidaDist', 'ComidaRegL', 'ComidaKNN', 'ComidaSVM', 'ComidaRF', 'ComidaGB']),
 	ComidaI: replaceImagePathVars(comidaI, ['ComidaAnalisis']),
 	Volcanic: replaceImagePathVars(volcanic, ['INGVPred']),
 	Kaggle2020: replaceImagePathVars(kaggle2020, ['K2020Req', 'K2020RankC', 'K2020ReqAge', 'K2020ComR', 'K2020ComA']),
