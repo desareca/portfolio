@@ -51,7 +51,7 @@
 		if (skills.length) {
 			groups.push({
 				icon: 'i-carbon-assembly-cluster',
-				name: 'Skills',
+				name: 'Habilidades',
 				items: skills.map((it) => ({
 					name: it.name,
 					logo: $mode === 'dark' ? it.logo.dark : it.logo.light,
@@ -64,7 +64,7 @@
 		if (projects.length) {
 			groups.push({
 				icon: 'i-carbon-cube',
-				name: 'Projects',
+				name: 'Proyectos',
 				items: projects.map((it) => ({
 					name: it.name,
 					logo: $mode === 'dark' ? it.logo.dark : it.logo.light,
@@ -77,7 +77,7 @@
 		if (experience.length) {
 			groups.push({
 				icon: 'i-carbon-development',
-				name: 'Experience',
+				name: 'Experiencia',
 				items: experience.map((it) => ({
 					name: it.name,
 					logo: $mode === 'dark' ? it.logo.dark : it.logo.light,
@@ -90,12 +90,12 @@
 		if (education.length) {
 			groups.push({
 				icon: 'i-carbon-education',
-				name: 'Education',
+				name: 'Educación',
 				items: education.map((it) => ({
 					name: it.degree,
 					logo: $mode === 'dark' ? it.logo.dark : it.logo.light,
 					link: `/education/${it.slug}`,
-					color: NAMED_COLORS.gray
+					color: it.color
 				}))
 			});
 		}
