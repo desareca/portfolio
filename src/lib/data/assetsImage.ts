@@ -13,19 +13,10 @@ const AssetsImage = {
 	ComidaDLCNNVaeRes: urlImageStatic('comida_rapida_IV_cnn_vae_res.png'),
 	ComidaDLCNNPred: urlImageStatic('comida_rapida_IV_cnn_pred.png'),
 
-	ComidaSOM: urlImageStatic('comida_rapida_III_som.png'),
-	ComidaPCAdia: urlImageStatic('comida_rapida_III_PCA_dia.png'),
-	ComidaPCAprod: urlImageStatic('comida_rapida_III_PCA_producto.png'),
-	ComidaPCAventa: urlImageStatic('comida_rapida_III_PCA_venta.png'),
-	ComidaISOMAPdia: urlImageStatic('comida_rapida_III_ISOMAP_dia.png'),
-	ComidaISOMAPprod: urlImageStatic('comida_rapida_III_ISOMAP_producto.png'),
-	ComidaISOMAPventa: urlImageStatic('comida_rapida_III_ISOMAP_venta.png'),
-	ComidaTSNEdia: urlImageStatic('comida_rapida_III_tSNE_dia.png'),
-	ComidaTSNEprod: urlImageStatic('comida_rapida_III_tSNE_producto.png'),
-	ComidaTSNEventa: urlImageStatic('comida_rapida_III_tSNE_venta.png'),
-	ComidaSOMdia: urlImageStatic('comida_rapida_III_SOM_dia.png'),
-	ComidaSOMprod: urlImageStatic('comida_rapida_III_SOM_producto.png'),
-	ComidaSOMventa: urlImageStatic('comida_rapida_III_SOM_venta.png'),
+	ComidaPCA: urlImageStatic('comida_rapida_III_PCA.png'),
+	ComidaISOMAP: urlImageStatic('comida_rapida_III_ISOMAP.png'),
+	ComidaTSNE: urlImageStatic('comida_rapida_III_tSNE.png'),
+	ComidaSOMcom: urlImageStatic('comida_rapida_III_SOM_comida.png'),
 
 	ComidaDist: urlImageStatic('comida_rapida_II_dist.png'),
 	ComidaRegL: urlImageStatic('comida_rapida_II_reglineal.png'),
@@ -35,20 +26,15 @@ const AssetsImage = {
 	ComidaGB: urlImageStatic('comida_rapida_II_gb.png'),
 
 	ComidaAnalisis: urlImageStatic('comida_rapida_I_analisis.png'),
-	ComidaProd: urlImageStatic('comida_rapida_I_productos.png'),
-	ComidaMonteCarlo: urlImageStatic('comida_rapida_I_montecarlo.png'),
 
-	INGVHiper: urlImageStatic('resultados_hiperparametros.png'),
 	INGVPred: urlImageStatic('predicion_real.png'),
-	INGVError: urlImageStatic('error_prediccion.png'),
 
 	K2020Req: urlImageStatic('respuesta_pais.png'),
 	K2020RankC: urlImageStatic('ranking_paises_respuestas.png'),
 	K2020ReqAge: urlImageStatic('respuestas_edad_region.png'),
 	K2020ComR: urlImageStatic('sueldo_region.png'),
 	K2020ComA: urlImageStatic('sueldo_edad.png'),
-
-	GLifeExample: urlImageStatic('patron_juego_vida.gif'),
+	
 	GLifeStartStop: urlImageStatic('comp_start_stop.png'),
 	GLifePred: urlImageStatic('comp_prediccion.png'),
 

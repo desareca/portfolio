@@ -24,8 +24,9 @@ function replaceImagePathVars(obj: string, imgs: string[], assetsImage: any = As
   }
 
 const AssetsProject = {
-	ComidaIV: replaceImagePathVars(comidaIV, ['ComidaDLVae', 'ComidaDLReg', 'ComidaDLRF', 'ComidaDLDLArq', 'ComidaDLDLRes', 'ComidaDLCNNArq', 'ComidaDLCNNRes', 'ComidaDLCNNVaeRes', 'ComidaDLCNNPred']),
-	ComidaIII: replaceImagePathVars(comidaIII, ['ComidaSOM']),
+	ComidaIV: replaceImagePathVars(comidaIV, 
+		['ComidaDLVae', 'ComidaDLReg', 'ComidaDLRF', 'ComidaDLDLArq', 'ComidaDLDLRes', 'ComidaDLCNNArq', 'ComidaDLCNNRes', 'ComidaDLCNNVaeRes', 'ComidaDLCNNPred']),
+	ComidaIII: replaceImagePathVars(comidaIII, ['ComidaPCA', 'ComidaISOMAP', 'ComidaTSNE', 'ComidaSOMcom']),
 	ComidaII: replaceImagePathVars(comidaII, ['ComidaDist', 'ComidaRegL', 'ComidaKNN', 'ComidaSVM', 'ComidaRF', 'ComidaGB']),
 	ComidaI: replaceImagePathVars(comidaI, ['ComidaAnalisis']),
 	Volcanic: replaceImagePathVars(volcanic, ['INGVPred']),

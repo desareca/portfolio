@@ -23,60 +23,7 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('python', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'sklearn', 'keras', 'tensorflow'),
 		type: 'Machine Learning',
-		screenshots: [
-			{
-				label: 'Distribución de Variables',
-				src: AssetsImage.ComidaDist
-			},
-			{
-				label: 'Representación de los datos con PCA agrupado por días',
-				src: AssetsImage.ComidaPCAdia
-			},
-			{
-				label: 'Representación de los datos con PCA agrupado por productos',
-				src: AssetsImage.ComidaPCAprod
-			},
-			{
-				label: 'Representación de los datos con PCA agrupado por ventas',
-				src: AssetsImage.ComidaPCAventa
-			},
-			{
-				label: 'Representación de los datos con ISOMAP agrupado por días',
-				src: AssetsImage.ComidaISOMAPdia
-			},
-			{
-				label: 'Representación de los datos con ISOMAP agrupado por productos',
-				src: AssetsImage.ComidaISOMAPprod
-			},
-			{
-				label: 'Representación de los datos con ISOMAP agrupado por ventas',
-				src: AssetsImage.ComidaISOMAPventa
-			},
-			{
-				label: 'Representación de los datos con t-SNE agrupado por días',
-				src: AssetsImage.ComidaTSNEdia
-			},
-			{
-				label: 'Representación de los datos con t-SNE agrupado por productos',
-				src: AssetsImage.ComidaTSNEprod
-			},
-			{
-				label: 'Representación de los datos con t-SNE agrupado por ventas',
-				src: AssetsImage.ComidaTSNEventa
-			},
-			{
-				label: 'Representación de los datos con SOM agrupado por días',
-				src: AssetsImage.ComidaSOMdia
-			},
-			{
-				label: 'Representación de los datos con SOM agrupado por productos',
-				src: AssetsImage.ComidaSOMprod
-			},
-			{
-				label: 'Representación de los datos con SOM agrupado por ventas',
-				src: AssetsImage.ComidaSOMventa
-			},
-		]
+		screenshots: []
 	},
 	//venta-comida-rapida-3
 	{
@@ -89,67 +36,14 @@ const items: Array<Project> = [
 			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: 'Colab' }
 		],
 		logo: Assets.Python,
-		name: 'Ventas Local de Comida Rápida\nParte III',
+		name: 'Ventas Local de Comida Rápida (Parte III)',
 		period: {
 			from: new Date(2022, 1, 5),
 			to: new Date(2022, 4, 30),
 		},
 		skills: getSkills('python', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'sklearn'),
 		type: 'Machine Learning',
-		screenshots: [
-			{
-				label: 'Distribución de Variables',
-				src: AssetsImage.ComidaDist
-			},
-			{
-				label: 'Representación de los datos con PCA agrupado por días',
-				src: AssetsImage.ComidaPCAdia
-			},
-			{
-				label: 'Representación de los datos con PCA agrupado por productos',
-				src: AssetsImage.ComidaPCAprod
-			},
-			{
-				label: 'Representación de los datos con PCA agrupado por ventas',
-				src: AssetsImage.ComidaPCAventa
-			},
-			{
-				label: 'Representación de los datos con ISOMAP agrupado por días',
-				src: AssetsImage.ComidaISOMAPdia
-			},
-			{
-				label: 'Representación de los datos con ISOMAP agrupado por productos',
-				src: AssetsImage.ComidaISOMAPprod
-			},
-			{
-				label: 'Representación de los datos con ISOMAP agrupado por ventas',
-				src: AssetsImage.ComidaISOMAPventa
-			},
-			{
-				label: 'Representación de los datos con t-SNE agrupado por días',
-				src: AssetsImage.ComidaTSNEdia
-			},
-			{
-				label: 'Representación de los datos con t-SNE agrupado por productos',
-				src: AssetsImage.ComidaTSNEprod
-			},
-			{
-				label: 'Representación de los datos con t-SNE agrupado por ventas',
-				src: AssetsImage.ComidaTSNEventa
-			},
-			{
-				label: 'Representación de los datos con SOM agrupado por días',
-				src: AssetsImage.ComidaSOMdia
-			},
-			{
-				label: 'Representación de los datos con SOM agrupado por productos',
-				src: AssetsImage.ComidaSOMprod
-			},
-			{
-				label: 'Representación de los datos con SOM agrupado por ventas',
-				src: AssetsImage.ComidaSOMventa
-			},
-		]
+		screenshots: []
 	},
 	//venta-comida-rapida-2
 	{
@@ -169,32 +63,7 @@ const items: Array<Project> = [
 		},
 		skills: getSkills('python', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'sklearn'),
 		type: 'Machine Learning',
-		screenshots: [
-			{
-				label: 'Distribución de Variables',
-				src: AssetsImage.ComidaDist
-			},
-			{
-				label: 'Resultados Regresión Lineal',
-				src: AssetsImage.ComidaRegL
-			},
-			{
-				label: 'Resultados Regresión KNN',
-				src: AssetsImage.ComidaKNN
-			},
-			{
-				label: 'Resultados Regresión SVM',
-				src: AssetsImage.ComidaSVM
-			},
-			{
-				label: 'Resultados Regresión Random Forest',
-				src: AssetsImage.ComidaRF
-			},
-			{
-				label: 'Resultados Regresión Gradient Boosting',
-				src: AssetsImage.ComidaGB
-			}
-		]
+		screenshots: []
 	},	
 	//venta-comida-rapida-1
 	{
