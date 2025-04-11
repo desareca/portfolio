@@ -33,9 +33,7 @@ Esta gráfico permite visualizar de manera dinámica la proporción de estudiant
 
 <br><br>
     <div style="display: flex; justify-content: center; text-align: center;">
-        <a href='https://desareca.github.io/DataViz-Matricula-Demre/'>
-            <img width="70%" height="auto" src=${AssetsImage.VizDemreTerSvelte}>
-        </a>
+        <img width="70%" height="auto" src=${AssetsImage.VizDemreTerSvelte}>
     </div>
 <br><br>
 
