@@ -5,6 +5,27 @@ import { getSkills } from './skills';
 import type { Project } from './types';
 
 const items: Array<Project> = [
+	//dataviz-matricula-demre
+	{
+		slug: 'dataviz-matricula-demre',
+		color: 'steelblue',
+		description: AssetsProject.VizDemre,
+		shortDescription:
+			'Utilizando datos de ingreso y matrícula del DEMRE se realizan 2 visualizaciones que permiten analizar el estado en estos últimos 10 años de la distribución socioecónomoica de los estudiantes.',
+		links: [
+			{ to: 'https://github.com/desareca/DataViz-Matricula-Demre', label: 'Repositorio' },
+			{ to: 'https://desareca.github.io/DataViz-Matricula-Demre/', label: 'Grafico Interactivo' }
+		],
+		logo: Assets.Python,
+		name: `Visualización Notas de Estudiantes entre 2014-2024`,
+		period: {
+			from: new Date(2025, 1, 5),
+			to: new Date(2025, 3, 30),
+		},
+		skills: getSkills('python', 'pandas', 'numpy', 'matplotlib', 'svelte', 'd3js'),
+		type: 'Análisis de Datos',
+		screenshots: []
+	},
 	//venta-comida-rapida-4
 	{
 		slug: 'venta-comida-rapida-4',

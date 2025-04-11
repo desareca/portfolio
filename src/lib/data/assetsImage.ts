@@ -3,6 +3,10 @@ import { base } from '$app/paths';
 const urlImageStatic = (file: string) => `${base}/image/${file}`;
 
 const AssetsImage = {
+	VizDemreTer: urlImageStatic('ternario.png'),
+	VizDemreScatter: urlImageStatic('scatter.png'),
+	VizDemreTerSvelte: urlImageStatic('ternario-svelte.png'),
+
 	ComidaDLVae: urlImageStatic('comida_rapida_IV_vae.png'),
 	ComidaDLReg: urlImageStatic('comida_rapida_IV_reg.png'),
 	ComidaDLRF: urlImageStatic('comida_rapida_IV_rf.png'),

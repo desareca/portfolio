@@ -13,6 +13,7 @@ import comidaI from './md/comida_rapida_1.md?raw';
 import comidaII from './md/comida_rapida_2.md?raw';
 import comidaIII from './md/comida_rapida_3.md?raw';
 import comidaIV from './md/comida_rapida_4.md?raw';
+import vizDemre from './md/viz_demre.md?raw';
 
 // Function to replace image path variables in the markdown content
 function replaceImagePathVars(obj: string, imgs: string[], assetsImage: any = AssetsImage): string {
@@ -24,6 +25,7 @@ function replaceImagePathVars(obj: string, imgs: string[], assetsImage: any = As
   }
 
 const AssetsProject = {
+	VizDemre: replaceImagePathVars(vizDemre, ['VizDemreTer', 'VizDemreScatter', 'VizDemreTerSvelte']),
 	ComidaIV: replaceImagePathVars(comidaIV, 
 		['ComidaDLVae', 'ComidaDLReg', 'ComidaDLRF', 'ComidaDLDLArq', 'ComidaDLDLRes', 'ComidaDLCNNArq', 'ComidaDLCNNRes', 'ComidaDLCNNVaeRes', 'ComidaDLCNNPred']),
 	ComidaIII: replaceImagePathVars(comidaIII, ['ComidaPCA', 'ComidaISOMAP', 'ComidaTSNE', 'ComidaSOMcom']),
