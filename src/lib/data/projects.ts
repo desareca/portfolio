@@ -17,7 +17,7 @@ const items: Array<Project> = [
 			{ to: 'https://desareca.github.io/DataViz-Matricula-Demre/', label: 'Grafico Interactivo' }
 		],
 		logo: Assets.Python,
-		name: `Visualización Notas de Estudiantes entre 2014-2024`,
+		name: `Visualización Matricula en Universidades del DEMRE entre 2014-2024`,
 		period: {
 			from: new Date(2025, 1, 5),
 			to: new Date(2025, 3, 30),

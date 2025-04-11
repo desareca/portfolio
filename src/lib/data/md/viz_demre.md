@@ -1,5 +1,3 @@
-
-
 Utilizando datos de ingreso y matrícula del [DEMRE](https://demre.cl/portales/portal-bases-datos) se realizan 2 visualizaciones que permiten analizar el estado en estos últimos años de la distribución socioecónomoica de los estudiantes.
 <br><br>
 Además, para complementar se realiza una visualización interactiva del primer gráfico en Svelte que permite visualizar la distribucuón de cada universidad en detalle.
