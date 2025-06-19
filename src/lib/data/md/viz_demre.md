@@ -1,4 +1,4 @@
-¿Cómo ha cambiado la distribución socioeconómica de los estudiantes universitarios en Chile en la última década? En este proyecto, utilizo datos del DEMRE para crear visualizaciones que exploran el origen escolar y el rendimiento académico de los estudiantes.
+¿Cómo ha cambiado la distribución socioeconómica de los estudiantes universitarios en Chile en la última década? En este proyecto, utilizo datos del [DEMRE](https://demre.cl/portales/portal-bases-datos) para crear visualizaciones que exploran el origen escolar y el rendimiento académico de los estudiantes.
 
 **Visualización 1: Distribución de Alumnos por Establecimiento**
 - Gráfico ternario que muestra la proporción de estudiantes provenientes de colegios particulares pagados, subvencionados y públicos, por universidad y año.
