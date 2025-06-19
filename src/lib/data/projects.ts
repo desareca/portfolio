@@ -1,6 +1,7 @@
 import Assets  from './assets';
 import AssetsImage  from './assetsImage';
-import AssetsProject from './assetsProject';
+import AssetsProject  from './assetsProject';
+import AssetsProjectTitles  from './assetsProjectTitles';
 import { getSkills } from './skills';
 import type { Project } from './types';
 
@@ -17,7 +18,7 @@ const items: Array<Project> = [
 			{ to: 'https://desareca.github.io/DataViz-Matricula-Demre/', label: 'Grafico Interactivo' }
 		],
 		logo: Assets.Python,
-		name: `Visualizando la Diversidad Socioeconómica en la Educación Superior Chilena`,
+		name: AssetsProjectTitles.VizDemre,
 		period: {
 			from: new Date(2025, 1, 5),
 			to: new Date(2025, 3, 30),
@@ -34,13 +35,13 @@ const items: Array<Project> = [
 		shortDescription:
 			'Busqueda de Patrones utilizando herramientas de deep learning',
 		links: [
-			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: 'Ventas Local de Comida Rápida (Parte I)' },
-			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: 'Ventas Local de Comida Rápida (Parte II)' },
-			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: 'Ventas Local de Comida Rápida (Parte III)' },
-			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: 'Ventas Local de Comida Rápida (Parte IV)' }
+			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: AssetsProjectTitles.ComidaI, },
+			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: AssetsProjectTitles.ComidaII, },
+			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: AssetsProjectTitles.ComidaIII, },
+			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: AssetsProjectTitles.ComidaIV }
 		],
 		logo: Assets.Python,
-		name: `Predicción de Ventas con Deep Learning y Datos Sintéticos en Comida Rápida (Parte IV)`,
+		name: AssetsProjectTitles.ComidaIV,
 		period: {
 			from: new Date(2022, 1, 5),
 			to: new Date(2022, 4, 30),
@@ -57,13 +58,13 @@ const items: Array<Project> = [
 		shortDescription:
 			'Busqueda de Patrones utilizando herramientas de aprendizaje no supervisado',
 		links: [
-			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: 'Ventas Local de Comida Rápida (Parte I)' },
-			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: 'Ventas Local de Comida Rápida (Parte II)' },
-			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: 'Ventas Local de Comida Rápida (Parte III)' },
-			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: 'Ventas Local de Comida Rápida (Parte IV)' }
+			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: AssetsProjectTitles.ComidaI, },
+			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: AssetsProjectTitles.ComidaII, },
+			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: AssetsProjectTitles.ComidaIII, },
+			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: AssetsProjectTitles.ComidaIV }
 		],
 		logo: Assets.Python,
-		name: 'Descubriendo Patrones Ocultos en Ventas de Comida Rápida con Aprendizaje No Supervisado (Parte III)',
+		name: AssetsProjectTitles.ComidaIII,
 		period: {
 			from: new Date(2022, 1, 5),
 			to: new Date(2022, 4, 30),
@@ -80,13 +81,13 @@ const items: Array<Project> = [
 		shortDescription:
 			'Predicción de Ventas utilizando algoritmos de Machine Learning',
 		links: [
-			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: 'Ventas Local de Comida Rápida (Parte I)' },
-			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: 'Ventas Local de Comida Rápida (Parte II)' },
-			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: 'Ventas Local de Comida Rápida (Parte III)' },
-			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: 'Ventas Local de Comida Rápida (Parte IV)' }
+			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: AssetsProjectTitles.ComidaI, },
+			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: AssetsProjectTitles.ComidaII, },
+			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: AssetsProjectTitles.ComidaIII, },
+			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: AssetsProjectTitles.ComidaIV }
 		],
 		logo: Assets.Python,
-		name: 'Predicción de Ventas Semanales en Comida Rápida con Machine Learning (Parte II)',
+		name: AssetsProjectTitles.ComidaII,
 		period: {
 			from: new Date(2022, 1, 5),
 			to: new Date(2022, 4, 30),
@@ -103,13 +104,13 @@ const items: Array<Project> = [
 		shortDescription:
 			'Planificación Inteligente de Ventas en Comida Rápida: Análisis Exploratorio y Simulación',
 		links: [
-			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: 'Ventas Local de Comida Rápida (Parte I)' },
-			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: 'Ventas Local de Comida Rápida (Parte II)' },
-			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: 'Ventas Local de Comida Rápida (Parte III)' },
-			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: 'Ventas Local de Comida Rápida (Parte IV)' }
+			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: AssetsProjectTitles.ComidaI, },
+			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: AssetsProjectTitles.ComidaII, },
+			{ to: 'https://colab.research.google.com/drive/1jHPntGoAqJ3b6CeffmmgDpeHlv-NS0TQ#scrollTo=dTFGMi0MIXih', label: AssetsProjectTitles.ComidaIII, },
+			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: AssetsProjectTitles.ComidaIV }
 		],
 		logo: Assets.Python,
-		name: 'Ventas Local de Comida Rápida (Parte I)',
+		name: AssetsProjectTitles.ComidaI,
 		period: {
 			from: new Date(2022, 1, 5),
 			to: new Date(2022, 4, 30),
@@ -129,7 +130,7 @@ const items: Array<Project> = [
 			{ to: 'https://www.kaggle.com/code/desareca/automl-volcanic-eruption-prediction', label: 'Kaggle' }
 		],
 		logo: Assets.R,
-		name: 'Anticipando Erupciones Volcánicas con Machine Learning',
+		name: AssetsProjectTitles.Volcanic,
 		period: {
 			from: new Date(2020, 10, 11),
 			to: new Date(2021, 0, 5),
@@ -149,7 +150,7 @@ const items: Array<Project> = [
 			{ to: 'https://www.kaggle.com/code/desareca/kaggle-survey-2020-analisys-by-region', label: 'Kaggle' }
 		],
 		logo: Assets.R,
-		name: 'Panorama Global de la Ciencia de Datos: Análisis de la Encuesta Kaggle 2020',
+		name: AssetsProjectTitles.Kaggle2020,
 		period: {
 			from: new Date(2020, 10, 19),
 			to: new Date(2021, 0, 5),
@@ -169,7 +170,7 @@ const items: Array<Project> = [
 			{ to: 'https://www.kaggle.com/code/desareca/game-of-life-genetic-algorithm-spanish', label: 'Kaggle' }
 		],
 		logo: Assets.R,
-		name: 'Resolviendo el Juego de la Vida Inverso con Algoritmos Genéticos',
+		name: AssetsProjectTitles.GameLife,
 		period: {
 			from: new Date(2020, 9, 3),
 			to: new Date(2020, 9, 31),
@@ -189,7 +190,7 @@ const items: Array<Project> = [
 			{ to: 'https://rpubs.com/desareca/SOM_clasificacion_imagenes', label: 'RPubs' }
 		],
 		logo: Assets.R,
-		name: 'Clasificación y Visualización de Imágenes con Mapas Autoorganizados (SOM)',
+		name: AssetsProjectTitles.SomClassify,
 		period: {
 			from: new Date(2019, 9, 1),
 			to: new Date(2019, 9, 31),
@@ -210,7 +211,7 @@ const items: Array<Project> = [
 			{ to: 'https://rpubs.com/desareca/Analisis-estadisticas-FIFA19', label: 'RPubs' }
 		],
 		logo: Assets.R,
-		name: 'Predicción de Remuneraciones y Análisis de Datos en FIFA 19',
+		name: AssetsProjectTitles.Fifa19,
 		period: {
 			from: new Date(2019, 9, 1),
 			to: new Date(2019, 9, 31),
@@ -231,7 +232,7 @@ const items: Array<Project> = [
 			{ to: 'https://rpubs.com/desareca/Prediccion-Sueldos-Futbolistas', label: 'RPubs' }
 		],
 		logo: Assets.Python,
-		name: 'Predicción de Salarios de Futbolistas a partir de Habilidades con IA',
+		name: AssetsProjectTitles.RemFut,
 		period: {
 			from: new Date(2019, 9, 1),
 			to: new Date(2019, 9, 31),
@@ -252,7 +253,7 @@ const items: Array<Project> = [
 			{ to: 'https://rpubs.com/desareca/Clasificacion-infarto-cardiaco', label: 'RPubs' }
 		],
 		logo: Assets.Python,
-		name: 'Inteligencia Artificial para la Detección Temprana de Infarto Cardíaco',
+		name: AssetsProjectTitles.InfCardiaco,
 		period: {
 			from: new Date(2019, 9, 1),
 			to: new Date(2019, 9, 31),
@@ -273,7 +274,7 @@ const items: Array<Project> = [
 			{ to: 'https://rpubs.com/desareca/Analisis_Consumidores', label: 'RPubs' }
 		],
 		logo: Assets.Python,
-		name: 'Predicción de Satisfacción de Clientes en Centros Comerciales con Machine Learning',
+		name: AssetsProjectTitles.ConsumMall,
 		period: {
 			from: new Date(2019, 9, 1),
 			to: new Date(2019, 9, 31),
@@ -294,7 +295,7 @@ const items: Array<Project> = [
 			{ to: 'https://rpubs.com/desareca/Analisis_Sentimientos_Noticieros', label: 'RPubs' }
 		],
 		logo: Assets.R,
-		name: 'Radiografía Emocional de los Noticieros Chilenos en Twitter',
+		name: AssetsProjectTitles.NoticiaChile,
 		period: {
 			from: new Date(2019, 5, 1),
 			to: new Date(2019, 5, 31),
@@ -312,7 +313,7 @@ const items: Array<Project> = [
 			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
 		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		name: AssetsProjectTitles.PortfolioSvelte,
 		period: {
 			from: new Date()
 		},
