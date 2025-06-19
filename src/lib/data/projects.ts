@@ -17,7 +17,7 @@ const items: Array<Project> = [
 			{ to: 'https://desareca.github.io/DataViz-Matricula-Demre/', label: 'Grafico Interactivo' }
 		],
 		logo: Assets.Python,
-		name: `Visualización Matricula en Universidades del DEMRE entre 2014-2024`,
+		name: `Visualizando la Diversidad Socioeconómica en la Educación Superior Chilena`,
 		period: {
 			from: new Date(2025, 1, 5),
 			to: new Date(2025, 3, 30),
@@ -40,7 +40,7 @@ const items: Array<Project> = [
 			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: 'Ventas Local de Comida Rápida (Parte IV)' }
 		],
 		logo: Assets.Python,
-		name: `Ventas Local de Comida Rápida (Parte IV)`,
+		name: `Predicción de Ventas con Deep Learning y Datos Sintéticos en Comida Rápida (Parte IV)`,
 		period: {
 			from: new Date(2022, 1, 5),
 			to: new Date(2022, 4, 30),
@@ -63,7 +63,7 @@ const items: Array<Project> = [
 			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: 'Ventas Local de Comida Rápida (Parte IV)' }
 		],
 		logo: Assets.Python,
-		name: 'Ventas Local de Comida Rápida (Parte III)',
+		name: 'Descubriendo Patrones Ocultos en Ventas de Comida Rápida con Aprendizaje No Supervisado (Parte III)',
 		period: {
 			from: new Date(2022, 1, 5),
 			to: new Date(2022, 4, 30),
@@ -86,7 +86,7 @@ const items: Array<Project> = [
 			{ to: 'https://colab.research.google.com/drive/12WJaWLLVgmc-jrzu4ibFcjx3C_i0d_hy#scrollTo=G6XKIhQSV6Ms', label: 'Ventas Local de Comida Rápida (Parte IV)' }
 		],
 		logo: Assets.Python,
-		name: 'Ventas Local de Comida Rápida (Parte II)',
+		name: 'Predicción de Ventas Semanales en Comida Rápida con Machine Learning (Parte II)',
 		period: {
 			from: new Date(2022, 1, 5),
 			to: new Date(2022, 4, 30),
@@ -101,7 +101,7 @@ const items: Array<Project> = [
 		color: 'steelblue',
 		description: AssetsProject.ComidaI,
 		shortDescription:
-			'Análisis Exploratorio e Inferencia para determinar estacionalidad en las ventas',
+			'Planificación Inteligente de Ventas en Comida Rápida: Análisis Exploratorio y Simulación',
 		links: [
 			{ to: 'https://colab.research.google.com/drive/18JFP09N0xWcBOtIUZYPHgAdcuKqQk4yo#scrollTo=D1J1UYzNW67C', label: 'Ventas Local de Comida Rápida (Parte I)' },
 			{ to: 'https://colab.research.google.com/drive/1hZTWo7pMp7SQ4lD3nCYMmZHfiXkb3TFB#scrollTo=A8NGJQD5uqn3', label: 'Ventas Local de Comida Rápida (Parte II)' },
@@ -129,7 +129,7 @@ const items: Array<Project> = [
 			{ to: 'https://www.kaggle.com/code/desareca/automl-volcanic-eruption-prediction', label: 'Kaggle' }
 		],
 		logo: Assets.R,
-		name: 'INGV - Predicción de Erupción Volcánica',
+		name: 'Anticipando Erupciones Volcánicas con Machine Learning',
 		period: {
 			from: new Date(2020, 10, 11),
 			to: new Date(2021, 0, 5),
@@ -149,7 +149,7 @@ const items: Array<Project> = [
 			{ to: 'https://www.kaggle.com/code/desareca/kaggle-survey-2020-analisys-by-region', label: 'Kaggle' }
 		],
 		logo: Assets.R,
-		name: 'Encuesta Kaggle 2020: Análisis por región',
+		name: 'Panorama Global de la Ciencia de Datos: Análisis de la Encuesta Kaggle 2020',
 		period: {
 			from: new Date(2020, 10, 19),
 			to: new Date(2021, 0, 5),
@@ -169,7 +169,7 @@ const items: Array<Project> = [
 			{ to: 'https://www.kaggle.com/code/desareca/game-of-life-genetic-algorithm-spanish', label: 'Kaggle' }
 		],
 		logo: Assets.R,
-		name: 'Game of Life - Genetic Algorithm',
+		name: 'Resolviendo el Juego de la Vida Inverso con Algoritmos Genéticos',
 		period: {
 			from: new Date(2020, 9, 3),
 			to: new Date(2020, 9, 31),
@@ -189,7 +189,7 @@ const items: Array<Project> = [
 			{ to: 'https://rpubs.com/desareca/SOM_clasificacion_imagenes', label: 'RPubs' }
 		],
 		logo: Assets.R,
-		name: 'SOM, visualización y clasificación de imágenes',
+		name: 'Clasificación y Visualización de Imágenes con Mapas Autoorganizados (SOM)',
 		period: {
 			from: new Date(2019, 9, 1),
 			to: new Date(2019, 9, 31),
@@ -210,7 +210,7 @@ const items: Array<Project> = [
 			{ to: 'https://rpubs.com/desareca/Analisis-estadisticas-FIFA19', label: 'RPubs' }
 		],
 		logo: Assets.R,
-		name: 'FIFA 19 - Analisis de caracteristicas y predicción',
+		name: 'Predicción de Remuneraciones y Análisis de Datos en FIFA 19',
 		period: {
 			from: new Date(2019, 9, 1),
 			to: new Date(2019, 9, 31),
@@ -231,7 +231,7 @@ const items: Array<Project> = [
 			{ to: 'https://rpubs.com/desareca/Prediccion-Sueldos-Futbolistas', label: 'RPubs' }
 		],
 		logo: Assets.Python,
-		name: 'Predicción de remuneración de futbolistas ',
+		name: 'Predicción de Salarios de Futbolistas a partir de Habilidades con IA',
 		period: {
 			from: new Date(2019, 9, 1),
 			to: new Date(2019, 9, 31),
@@ -252,7 +252,7 @@ const items: Array<Project> = [
 			{ to: 'https://rpubs.com/desareca/Clasificacion-infarto-cardiaco', label: 'RPubs' }
 		],
 		logo: Assets.Python,
-		name: 'Clasificación de infarto cardíaco',
+		name: 'Inteligencia Artificial para la Detección Temprana de Infarto Cardíaco',
 		period: {
 			from: new Date(2019, 9, 1),
 			to: new Date(2019, 9, 31),
@@ -273,7 +273,7 @@ const items: Array<Project> = [
 			{ to: 'https://rpubs.com/desareca/Analisis_Consumidores', label: 'RPubs' }
 		],
 		logo: Assets.Python,
-		name: 'Análisis de Consumidores de un Mall',
+		name: 'Predicción de Satisfacción de Clientes en Centros Comerciales con Machine Learning',
 		period: {
 			from: new Date(2019, 9, 1),
 			to: new Date(2019, 9, 31),
@@ -294,7 +294,7 @@ const items: Array<Project> = [
 			{ to: 'https://rpubs.com/desareca/Analisis_Sentimientos_Noticieros', label: 'RPubs' }
 		],
 		logo: Assets.R,
-		name: 'Análisis de Sentimientos Noticieros Chilenos',
+		name: 'Radiografía Emocional de los Noticieros Chilenos en Twitter',
 		period: {
 			from: new Date(2019, 5, 1),
 			to: new Date(2019, 5, 31),
@@ -317,7 +317,7 @@ const items: Array<Project> = [
 			from: new Date()
 		},
 		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		type: 'Svelte: Framework Moderno para Aplicaciones Web Eficientes',
 		screenshots: [
 			{
 				label: 'screen 1',
