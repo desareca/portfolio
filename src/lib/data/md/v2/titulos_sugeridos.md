@@ -1,0 +1,18 @@
+# Títulos sugeridos para proyectos de portafolio
+
+- analisis_consumidores_mall.md: "Predicción de Satisfacción de Clientes en Centros Comerciales con Machine Learning"
+- analisis_sentimientos_noticieros_chilenos.md: "Radiografía Emocional de los Noticieros Chilenos en Twitter"
+- clasificacion_infarto_cardiaco.md: "Inteligencia Artificial para la Detección Temprana de Infarto Cardíaco"
+- comida_rapida_1.md: "Planificación Inteligente de Ventas en Comida Rápida: Análisis Exploratorio y Simulación"
+- comida_rapida_2.md: "Predicción de Ventas Semanales en Comida Rápida con Machine Learning"
+- comida_rapida_3.md: "Descubriendo Patrones Ocultos en Ventas de Comida Rápida con Aprendizaje No Supervisado"
+- comida_rapida_4.md: "Predicción de Ventas con Deep Learning y Datos Sintéticos en Comida Rápida"
+- fifa19_analisis_prediccion.md: "Predicción de Remuneraciones y Análisis de Datos en FIFA 19"
+- game_life_genetic_algorithm.md: "Resolviendo el Juego de la Vida Inverso con Algoritmos Genéticos"
+- kaggle_survey_2020.md: "Panorama Global de la Ciencia de Datos: Análisis de la Encuesta Kaggle 2020"
+- prediccion_erupcion_volcanica.md: "Anticipando Erupciones Volcánicas con Machine Learning"
+- prediccion_remuneracion_futbolistas.md: "Predicción de Salarios de Futbolistas a partir de Habilidades con IA"
+- slick_portfolio_svelte.md: "Plantilla Moderna de Portafolio para Desarrolladores con SvelteKit"
+- som_clasificacion_imagenes.md: "Clasificación y Visualización de Imágenes con Mapas Autoorganizados (SOM)"
+- svelte.md: "Svelte: Framework Moderno para Aplicaciones Web Eficientes"
+- viz_demre.md: "Visualizando la Diversidad Socioeconómica en la Educación Superior Chilena"
