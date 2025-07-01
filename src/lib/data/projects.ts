@@ -6,6 +6,26 @@ import { getSkills } from './skills';
 import type { Project } from './types';
 
 const items: Array<Project> = [
+	//detect-auto-retinopatia
+	{
+		slug: 'detect-auto-retinopatia',
+		color: 'steelblue',
+		description: AssetsProject.Retinopathy,
+		shortDescription:
+			'¿Cómo puede la inteligencia artificial ayudar a prevenir la ceguera causada por diabetes? En este proyecto desarrollé un sistema completo de detección automática de retinopatía diabética utilizando técnicas avanzadas de computer vision y deep learning, con un enfoque iterativo que optimiza tanto la precisión diagnóstica como la eficiencia computacional.',
+		links: [
+			{ to: 'https://github.com/desareca/diabetic-retinopathy-detection-pipeline', label: 'Repositorio' }
+		],
+		logo: Assets.Python,
+		name: AssetsProjectTitles.Retinopathy,
+		period: {
+			from: new Date(2025, 4, 5),
+			to: new Date(2025, 4, 31),
+		},
+		skills: getSkills('python', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'sklearn', 'keras', 'tensorflow'),
+		type: 'Machine Learning',
+		screenshots: []
+	},
 	//dataviz-matricula-demre
 	{
 		slug: 'dataviz-matricula-demre',

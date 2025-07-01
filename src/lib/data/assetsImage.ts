@@ -3,6 +3,14 @@ import { base } from '$app/paths';
 const urlImageStatic = (file: string) => `${base}/image/${file}`;
 
 const AssetsImage = {
+	RetinopathyFlujo: urlImageStatic('RetinopathyFlujo.png'),
+	RetinopathyFiltersComparison: urlImageStatic('RetinopathyFiltersComparison.png'),
+	RetinopathyPerformanceMatrix: urlImageStatic('RetinopathyPerformanceMatrix.png'),
+	RetinopathyTimeOptimization: urlImageStatic('RetinopathyTimeOptimization.png'),
+	RetinopathyTrainingCurves: urlImageStatic('RetinopathyTrainingCurves.png'),
+	RetinopathyEvolutionTimeline: urlImageStatic('RetinopathyEvolutionTimeline.png'),
+	RetinopathyAdvancedTechniques: urlImageStatic('RetinopathyAdvancedTechniques.png'),
+
 	VizDemreTer: urlImageStatic('ternario.png'),
 	VizDemreScatter: urlImageStatic('scatter.png'),
 	VizDemreTerSvelte: urlImageStatic('ternario-svelte.png'),

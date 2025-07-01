@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .performance-table {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .performance-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: 600;
+            padding: 15px 12px;
+            text-align: center;
+            font-size: 14px;
+            border: none;
+        }
+        
+        .performance-table td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        
+        .performance-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        .performance-table tr:hover {
+            background-color: #e3f2fd;
+            transition: background-color 0.3s ease;
+        }
+        
+        .filter-name {
+            text-align: left !important;
+            font-weight: 600;
+            color: #2c3e50;
+            padding-left: 16px;
+        }
+        
+        .best-score {
+            background-color: #4caf50;
+            color: white;
+            font-weight: bold;
+            border-radius: 4px;
+            padding: 4px 8px;
+        }
+        
+        .good-score {
+            background-color: #8bc34a;
+            color: white;
+            font-weight: bold;
+            border-radius: 4px;
+            padding: 4px 8px;
+        }
+        
+        .avg-score {
+            background-color: #ff9800;
+            color: white;
+            font-weight: bold;
+            border-radius: 4px;
+            padding: 4px 8px;
+        }
+        
+        .poor-score {
+            background-color: #f44336;
+            color: white;
+            font-weight: bold;
+            border-radius: 4px;
+            padding: 4px 8px;
+        }
+        
+        .promedio-row {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            font-weight: bold;
+            border-top: 2px solid #ff9800;
+        }
+        
+        .table-title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .table-subtitle {
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-title">Tiempo Medio de Entrenamiento por Técnica (segundos)</div>
+    <div class="table-subtitle">Comparación de rendimiento temporal a través de las fases del proyecto</div>
+    
+    <table class="performance-table">
+        <thead>
+            <tr>
+                <th>Filtro</th>
+                <th>Modelo Base</th>
+                <th>Pipeline Modificado</th>
+                <th>Data Augmentation</th>
+                <th>Dropout</th>
+                <th>Batch Normalization</th>
+                <th>Fine Tuning</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="filter-name">Original</td>
+                <td>46,01</td>
+                <td class="best-score">41,31</td>
+                <td>48,51</td>
+                <td class="best-score">41,06</td>
+                <td>52,03</td>
+                <td>53,07</td>
+            </tr>
+            <tr>
+                <td class="filter-name">Gaussian Blur</td>
+                <td>46,00</td>
+                <td class="best-score">40,86</td>
+                <td>48,95</td>
+                <td class="best-score">41,98</td>
+                <td class="best-score">41,02</td>
+                <td>55,68</td>
+            </tr>
+            <tr>
+                <td class="filter-name">Unsharp Mask</td>
+                <td>46,80</td>
+                <td class="best-score">41,05</td>
+                <td>49,67</td>
+                <td class="best-score">42,41</td>
+                <td>44,73</td>
+                <td>55,90</td>
+            </tr>
+            <tr>
+                <td class="filter-name">CLAHE</td>
+                <td>47,96</td>
+                <td class="best-score">40,73</td>
+                <td>46,38</td>
+                <td class="best-score">43,18</td>
+                <td>47,36</td>
+                <td>54,68</td>
+            </tr>
+            <tr>
+                <td class="filter-name">Top Hat</td>
+                <td>47,22</td>
+                <td>45,32</td>
+                <td>53,63</td>
+                <td>44,44</td>
+                <td class="best-score">43,22</td>
+                <td>53,27</td>
+            </tr>
+            <tr>
+                <td class="filter-name">Bottom Hat</td>
+                <td>47,13</td>
+                <td class="best-score">43,45</td>
+                <td>53,67</td>
+                <td>44,30</td>
+                <td class="best-score">43,03</td>
+                <td>53,69</td>
+            </tr>
+            <tr>
+                <td class="filter-name">Sobel</td>
+                <td class="poor-score">354,03</td>
+                <td class="best-score">40,34</td>
+                <td>49,59</td>
+                <td class="best-score">42,53</td>
+                <td>46,23</td>
+                <td>52,89</td>
+            </tr>
+            <tr>
+                <td class="filter-name">Gaussian Blur + CLAHE</td>
+                <td>49,50</td>
+                <td class="best-score">41,10</td>
+                <td>53,30</td>
+                <td class="best-score">43,65</td>
+                <td class="best-score">43,73</td>
+                <td>55,90</td>
+            </tr>
+            <tr>
+                <td class="filter-name">CLAHE + Unsharp Mask</td>
+                <td>50,57</td>
+                <td class="best-score">43,56</td>
+                <td>47,94</td>
+                <td class="best-score">43,39</td>
+                <td>47,85</td>
+                <td>54,67</td>
+            </tr>
+            <tr class="promedio-row">
+                <td class="filter-name"><strong>PROMEDIO</strong></td>
+                <td><strong>47,65</strong></td>
+                <td><strong>41,97</strong></td>
+                <td><strong>50,18</strong></td>
+                <td><strong>42,99</strong></td>
+                <td><strong>45,47</strong></td>
+                <td><strong>54,42</strong></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

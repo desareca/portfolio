@@ -1,4 +1,5 @@
 const AssetsProjectTitles = {
+	Retinopathy: "Detección Automática de Retinopatía Diabética: Pipeline Completo",
 	VizDemre: "Visualizando la Diversidad Socioeconómica en la Educación Superior Chilena",
 	ComidaIV: "Predicción de Ventas con Deep Learning y Datos Sintéticos en Comida Rápida (Parte IV)",
 	ComidaIII: "Descubriendo Patrones Ocultos en Ventas de Comida Rápida con Aprendizaje No Supervisado (Parte III)",
